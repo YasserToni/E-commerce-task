@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -17,10 +18,10 @@ function Header() {
       </div>
       <ul className="flex justify-between  gap-14">
         <li className="text-lg font-medium leading-6">
-          <a href="#">الصفحة الرئيسية </a>
+          <Link to="/">الصفحة الرئيسية </Link>
         </li>
         <li className="font-normal">
-          <a href="#">منتجاتنا</a>
+          <Link to="/product-list">منتجاتنا</Link>
         </li>
         <li>
           <a href="#">معلومات عنا</a>
