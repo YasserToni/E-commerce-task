@@ -10,7 +10,6 @@ import {
 import image from "../../../assets/products_images/iphone.png";
 import { GoTrash } from "react-icons/go";
 import { useState } from "react";
-import BuyButton from "./BuyButton";
 
 function ShoppingCard() {
   const [quantity, setQuantity] = useState(1);
@@ -42,39 +41,24 @@ function ShoppingCard() {
               dir="rtl"
               className="flex items-center justify-between gap-10 border-b border-[#E5E9F1] py-3"
             >
-              <div className="flex ">
+              <div className="flex gap-3">
                 <div className="p-1 shadow-card bg-[#F4F4F4] rounded-[14px] w-fit">
                   <img className="w-24 h-24" src={image} alt="product-image" />
                 </div>
                 <div className="p-1">
-                  <div className=" font-medium font-fm text-xl text-[#505255]">
+                  <div className="font-semibold font-fm text-lg text-[#505255]">
                     آيفون 15 برو ماكس، سعة 256 جيجابايت، تيتانيوم طبيعي
                   </div>
-                  <div className="flex gap-3 pr-2">
-                    {/* Increase Button */}
-                    <button
-                      onClick={handleIncrease}
-                      className="text-center  rounded-[50%] w-[22px] h-[22px] bg-primary text-white"
-                    >
+                  <div className="flex gap-3 mt-4">
+                    <button className="w-[22px] h-[22px] rounded-full bg-primary text-base text-white flex justify-center items-center">
                       +
                     </button>
-                    {/* Input Field */}
-                    <input
-                      type="number"
-                      value={quantity}
-                      readOnly
-                      className="text-center w-6 flex justify-center pr-1"
-                    />
-
-                    {/* Decrease Button */}
-                    <button
-                      onClick={handleDecrease}
-                      className="text-center  rounded-full w-[22px] h-[22px] bg-[#EDEDED]"
-                    >
+                    <span>1</span>
+                    <button className="w-[22px] h-[22px] rounded-full bg-[#EDEDED] text-base text-[#A1A1A3] flex justify-center items-center">
                       -
                     </button>
-                    <button className="text-[#4A4A4A]">
-                      <GoTrash />
+                    <button className=" rounded-full   flex justify-center items-center">
+                      <GoTrash size={19} />
                     </button>
                   </div>
                 </div>
@@ -91,14 +75,14 @@ function ShoppingCard() {
             <div className="border-t border-[#E5E9F1] mb-5">
               <div className="py-5 flex items-center justify-between font-bold font-fb text-xl text-[#3A4353]">
                 <span>6500ج</span>
-                <span>إجمالي المبلغ:</span>
+                <span>: إجمالي السلة</span>
               </div>
               <div className="flex gap-3">
-                <button className="h-[48px] w-[228px]  rounded-[61px] bg-white border  text-xl font-bold font-fb text-primary linerBackgound">
-                  إتمام الشراء
-                </button>
-                <button className="w-[228px] h-[48px]  rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound">
+                <button className="w-[228px] h-[48px]  rounded-[61px] bg-white text-primary text-xl font-bold font-fb border border-primary">
                   متابعة التسوق
+                </button>
+                <button className="h-[48px] w-[228px]  rounded-[61px] bg-primary border  text-xl font-bold font-fb text-white linerBackgound">
+                  إتمام الشراء
                 </button>
               </div>
             </div>

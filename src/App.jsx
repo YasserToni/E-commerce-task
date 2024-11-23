@@ -30,7 +30,7 @@ function App() {
       {/* <HomePage /> */}
       {/* <ProductListPage /> */}
       {/* <ProductPage /> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/E-commerce-task">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="product-list" element={<ProductListPage />} />

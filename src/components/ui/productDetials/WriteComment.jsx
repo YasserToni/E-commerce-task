@@ -1,3 +1,5 @@
+import AddReviews from "../reviews/AddReviews";
+
 function WriteComment() {
   return (
     <div>
@@ -11,7 +13,7 @@ function WriteComment() {
         بعض من تقيمات عملائنا عن هذا المنتج. اطلب الان واكتب تقييمك
       </p>
       <button className="font-bold font-fb text-lg text-white bg-primary rounded-[39px] px-6 py-3">
-        اكتب تقييمك
+        <AddReviews />
       </button>
     </div>
   );
