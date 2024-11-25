@@ -20,14 +20,16 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
   };
 
   return (
-    <div dir="rtl" className="relative w-full mb-14">
+    <div dir="rtl" className="relative w-full mb-14 sm:mb-7">
       {/* Pagination Buttons */}
-      <div className="flex justify-between my-6">
-        <div className="h-9 flex items-center gap-2">
-          <span className="w-2 h-full bg-primary rounded-lg"></span>
-          <span className="font-logo font-bold text-3xl text-[##212328]">
-            {sectionName}
-          </span>
+      <div className="flex justify-between items-center my-6 sm:my-3">
+        <div className="h-9 flex items-center sm:flex-col gap-2">
+          <div className="h-9 flex items-center gap-2">
+            <span className="w-2 h-9 sm:h-6 sm:w-1 bg-primary rounded-lg"></span>
+            <span className="font-logo font-bold text-3xl sm:text-lg sm:leading-6 text-[##212328]">
+              {sectionName}
+            </span>
+          </div>
           {discountPeriod ? (
             <CountdownTimer initialHours={discountPeriod} />
           ) : (
@@ -51,7 +53,10 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
       </div>
 
       {/* Product Cards Row */}
-      <div ref={rowRef} className="flex gap-4 overflow-x-auto hide-scrollbar">
+      <div
+        ref={rowRef}
+        className="flex gap-4 sm:gap-2 overflow-x-auto hide-scrollbar"
+      >
         {Array.from({ length: 20 }).map((_, index) => (
           <CardsDiscount
             discountPercentage={discountPercentage}

@@ -5,11 +5,11 @@ import { GrLocation } from "react-icons/gr";
 function Input() {
   return (
     <>
-      <div dir="rtl" className="flex flex-col w-full max-w-[580px]">
+      <div dir="rtl" className="flex flex-col w-full max-w-[580px] sm:mt-2">
         {/* Label */}
         <label
           htmlFor="input-with-icon"
-          className="my-3 text-sm font-medium text-[#63636E]"
+          className="my-3 sm:my-1 text-sm font-medium text-[#63636E]"
         >
           الأسم الكامل
         </label>

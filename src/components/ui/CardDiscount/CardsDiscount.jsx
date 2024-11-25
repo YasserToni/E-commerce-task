@@ -5,36 +5,38 @@ function CardsDiscount({ discountPercentage }) {
   return (
     <div dir="rtl">
       <div className="flex gap-2 items-center ">
-        <div className="w-64 h-96 p-2 rounded-xl shadow-card relative mb-3">
+        <div className="w-64 sm:w-[168px] h-96 sm:h-[248px] p-2 rounded-xl shadow-card relative mb-3">
           {discountPercentage ? (
-            <span className="flex items-center font-medium text-sm rounded-xl py-1 px-3  bg-[#FF2828] font-logo text-[#FFFFFF]  absolute right-8">
+            <span className="flex items-center font-medium text-sm sm:text-[10px] rounded-xl  py-1 sm:py-0 px-3 sm:px-1  bg-[#FF2828] font-logo text-[#FFFFFF]  absolute right-4">
               خصم {discountPercentage} %
             </span>
           ) : (
             ""
           )}
           <AiOutlineShoppingCart
-            size={32}
-            className=" bg-[#3074F0] text-[#FFF]  py-1 px-1.5 absolute left-5 bottom-32  rounded-md hover:cursor-pointer"
+            // size={32}
+            className=" bg-[#3074F0] text-[#FFF] text-3xl py-1 px-1.5 absolute left-5 sm:left-0 bottom-32 sm:bottom-24  rounded-md hover:cursor-pointer"
           />
           <img
-            className="max-w-60 max-h-64 pb-6 mx-auto"
+            className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-6  mx-auto"
             src="https://s3-alpha-sig.figma.com/img/5768/b272/374e78a22a2cb01c042636ef79f9bcbf?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fcqCWnZ-lxAx9-ftFFkVWkDTFAMpWfbs-mtncce-m3pyT3m4RxCJBUWIlOhve4G4GkBfpTFzxU~yApwNisaRh9PS63ATUHD5TcfI1tSXDTX7ANRWPRyoj61mDkjpq~XJinbfIaV3xObRdGjipPT-WH7~kkEOayDrNVJXj2K9PE25SGBgKtagyVWlRnOn-vQmXCyueaWt-Tio7ve-qAcRM22B7D0mtIoehkFh7zhptjLp-RUElfhnSYnpHU-jAJHHJo7vHsigwCBmMZK0dYK2tk~gu69HZmOSC6pijEFb-i6BrNGMVl3c5bVsQ6JVfvdsQkNaooOejChpv5FxmsBQ0g__"
             alt=""
           />
 
           <div>
-            <h3 className="font-normal text-lg font-logo text-[#454545]">
+            <h3 className="font-normal text-lg sm:text-xs sm:leading-4 font-logo text-[#454545]">
               سامسونج الترا جالاكسي. شريحتان اتصال بلون بنفسجي.
             </h3>
             <div className="flex items-center justify-between">
               <div>
-                <span className="font-bold text-xl text-[#E02954]">6500ج</span>
-                <span className="font-normal text-base text-[#808080] line-through">
+                <span className="font-bold text-xl sm:text-sm sm:leading-5 text-[#E02954]">
+                  6500ج
+                </span>
+                <span className="font-normal text-base sm:text-xs sm:leading-4 text-[#808080] line-through">
                   7000
                 </span>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center sm:text-xs ">
                 4.2/5
                 <FaStar className="text-yellow-400" />
               </div>

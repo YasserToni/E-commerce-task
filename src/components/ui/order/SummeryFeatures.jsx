@@ -5,7 +5,10 @@ import { FaMoneyCheckAlt } from "react-icons/fa";
 
 function SummeryFeatures() {
   return (
-    <div dir="rtl" className="flex gap-16">
+    <div
+      dir="rtl"
+      className="flex gap-16 sm:flex-wrap sm:items-center sm:justify-center"
+    >
       <div className="flex flex-col items-center justify-center gap-3">
         <div className="w-16 h-14 rounded-full bg-[#EAF1FD] text-primary flex items-center justify-center">
           <TbTruckDelivery size={32} />

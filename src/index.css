@@ -31,7 +31,9 @@
   font-weight: 500;
   font-style: normal;
 }
-
+.dropIcon:hover .dropMenu {
+  display: flex !important;
+}
 /* Hide scrollbar for all browsers */
 .hide-scrollbar {
   scrollbar-width: none; /* Firefox */

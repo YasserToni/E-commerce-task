@@ -6,7 +6,7 @@ function BuyButton() {
         <span>6500ج</span>
       </div>
       <button className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound bottom-shadow">
-        اشتري الان - الدفع عند الاستلام
+        تأكيد الطلب
       </button>
     </div>
   );

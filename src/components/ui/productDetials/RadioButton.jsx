@@ -23,7 +23,7 @@ function RadioButton() {
           />
           <label
             onClick={(e) => e.stopPropagation()} // Prevent clicking the label from toggling the whole box
-            className="text-xl font-bold font-fm text-[#252534]"
+            className="text-xl sm:text-base sm:leading-4 font-bold font-fm text-[#252534]"
           >
             منتج واحد فقط
           </label>
@@ -31,7 +31,7 @@ function RadioButton() {
 
         {/* Left: Price Section */}
         <div className="flex flex-col items-center">
-          <span className="text-xl font-bold text-[##454545] font-fb">
+          <span className="text-xl sm:text-base sm:leading-4 font-bold text-[##454545] font-fb">
             6500ج
           </span>
           <span className="text-sm line-through text-[##808080]">7000ج</span>
@@ -54,7 +54,7 @@ function RadioButton() {
           />
           <label
             onClick={(e) => e.stopPropagation()} // Prevent clicking the label from toggling the whole box
-            className="text-xl font-bold font-fm text-[#252534]"
+            className="text-xl sm:text-base sm:leading-4 font-bold font-fm text-[#252534]"
           >
             اشتري 2 و احصل على خصم 10٪
           </label>
@@ -62,7 +62,7 @@ function RadioButton() {
 
         {/* Left: Price Section */}
         <div className="flex flex-col items-center">
-          <span className="text-xl font-bold text-[##454545] font-fb">
+          <span className="text-xl sm:text-base sm:leading-4 font-bold text-[##454545] font-fb">
             12,000ج
           </span>
           <span className="text-sm line-through text-[##808080]">13,000ج</span>
@@ -85,7 +85,7 @@ function RadioButton() {
           />
           <label
             onClick={(e) => e.stopPropagation()} // Prevent clicking the label from toggling the whole box
-            className="text-xl font-bold font-fm text-[#252534]"
+            className="text-xl sm:text-base sm:leading-4 font-bold font-fm text-[#252534]"
           >
             اشتري 3 و احصل على خصم 15٪
           </label>
@@ -93,7 +93,7 @@ function RadioButton() {
 
         {/* Left: Price Section */}
         <div className="flex flex-col items-center">
-          <span className="text-xl font-bold text-[##454545] font-fb">
+          <span className="text-xl sm:text-base sm:leading-4 font-bold text-[##454545] font-fb">
             18,000ج
           </span>
           <span className="text-sm line-through text-[##808080]">19,500ج</span>

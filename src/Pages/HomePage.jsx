@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <>
       <Header />
-      <main className="px-14">
+      <main className="px-14 sm:px-4">
         <HerroSwiper />
         <Featers />
         <ProductRow

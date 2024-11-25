@@ -1,4 +1,5 @@
 import { CiSearch } from "react-icons/ci";
+import { RiMenu3Fill } from "react-icons/ri";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import {
@@ -11,22 +12,53 @@ import {
 } from "@/components/ui/sheet";
 import image from "../../../assets/products_images/iphone.png";
 import { GoTrash } from "react-icons/go";
+import { useState } from "react";
 
 function Header() {
+  const [toggleMenu, setToggleMenu] = useState(true);
+  console.log(toggleMenu);
   return (
     <div
       dir="rtl"
-      className="flex justify-between items-center border-b py-2 px-14 font-logo w-full"
+      className="flex justify-between items-center border-b py-2 px-14 sm:px-4 font-logo w-full"
     >
-      <div className="flex justify-between items-center gap-3">
+      <div className=" flex justify-between items-center gap-3 sm:gap-1 relative">
+        <div
+          className={`${
+            toggleMenu ? "hidden" : "flex"
+          } absolute top-8 right-0 w-[330px] rounded-lg h-[200px] bg-[#eeeeee] z-20  flex-col justify-center gap-3 p-4 font-fm font-medium text-lg `}
+        >
+          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+            الصفحة الرئيسية
+          </span>
+          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+            منتجاتنا
+          </span>
+          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+            معلومات عنا
+          </span>
+          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+            تواصل معنا
+          </span>
+        </div>
+        <span
+          onClick={() => {
+            setToggleMenu(!toggleMenu);
+          }}
+          className="hidden sm:block sm:text-lg dropIcon cur"
+        >
+          <RiMenu3Fill />
+        </span>
         <img
           src="https://s3-alpha-sig.figma.com/img/a6d7/8a8f/2501911f1f8921cbd38b239a5a0795b5?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nV~G6CUfZoHSFkqZS8mpugplNUCxdARCaYAA08dRPhQd9P8zsXvXV21qBqvM30B0GtjGXxCPi1o36UYfXeXwVZpwHWMWfwnsLxHf3JRsQVPx9ar2GnfS0Y7MXdbKVx7KIl8VAdwkMdA8tVOSmJqENrTQ0kFcdWIxYNNbZFn7biQSeRWba1TGgYfL5MSvHAZyup1BdH3iVZWpmzArwM4XeNX4KWiVzi79MmfKc~2J48FzGbPHa7KMXtrGPfx4W92WGmCohBSPwalsCPMraHPJIg-6HQUErj7XQH2Lm1doSKPIlfHHh1d1PN0U02y~ZUxbDeTkdA53QNGqRlL5VeCAJA__"
           alt="Logo"
-          className="w-10 h-10 rotate-[240deg]"
+          className="w-10  h-10 sm:w-6 sm:h-6 rotate-[240deg]"
         />
-        <span className="font-bold text-3xl leading-10">تسوق</span>
+        <span className="font-bold text-3xl sm:text-base sm:leading-7 leading-10">
+          تسوق
+        </span>
       </div>
-      <ul className="flex justify-between  gap-14">
+      <ul className="flex justify-between  gap-14 sm:hidden">
         <li className="text-lg font-medium leading-6">
           <Link to="/">الصفحة الرئيسية </Link>
         </li>
@@ -40,7 +72,7 @@ function Header() {
           <a href="#">تواصل معنا</a>
         </li>
       </ul>
-      <div className="flex justify-between gap-8">
+      <div className="flex justify-between gap-8 sm:gap-4">
         <CiSearch />
         <Sheet dir="rtl">
           <SheetTrigger>

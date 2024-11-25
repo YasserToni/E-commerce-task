@@ -20,12 +20,12 @@ const SectionRow = ({ sectionName }) => {
   };
 
   return (
-    <div dir="rtl" className="relative w-full mb-14">
+    <div dir="rtl" className="relative w-full mb-14 sm:mb-7">
       {/* Pagination Buttons */}
-      <div className="flex justify-between my-6">
-        <div className="h-9 flex items-center gap-2">
-          <span className="w-2 h-full bg-primary rounded-lg"></span>
-          <span className="font-logo font-bold text-3xl text-[##212328]">
+      <div className="flex justify-between my-6 sm:my-2">
+        <div className="h-9 sm:h-6 flex items-center gap-2">
+          <span className="w-2 sm:w-1 h-full bg-primary rounded-lg"></span>
+          <span className="font-logo font-bold text-3xl sm:text-base sm:leading-6 text-[##212328]">
             {sectionName}
           </span>
         </div>

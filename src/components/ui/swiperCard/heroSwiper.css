@@ -3,3 +3,29 @@
   width: 20px;
   border-radius: 30%;
 }
+/* .swiper-pagination {
+  position: absolute;
+  bottom: 500px;
+} */
+/* .swiper-pagination {
+  bottom: auto !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  text-align: center !important;
+  z-index: 10 !important;
+} */
+/* Styles for mobile and tablet screens */
+@media (max-width: 639px) {
+  .swiper {
+    height: 177px !important;
+  }
+  .swiper-pagination {
+    bottom: auto !important;
+    top: 155px !important; /* Move pagination to the top for mobile and tablet */
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    z-index: 10 !important;
+  }
+}

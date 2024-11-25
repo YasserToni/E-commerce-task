@@ -6,7 +6,7 @@ import SummeryFeatures from "./SummeryFeatures";
 
 function OrderSummery() {
   return (
-    <div className="p-7 box-shadow rounded-3xl w-[660px] mb-5">
+    <div className="p-7 sm:p-4 box-shadow rounded-3xl w-[660px] sm:w-[328px] mb-5">
       <div className="font-bold font-fb text-[26px] text-[#252534]">
         ملخص الطلب
       </div>
