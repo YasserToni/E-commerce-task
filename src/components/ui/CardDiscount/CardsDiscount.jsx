@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import productImage from "../../../assets/products_images/iphone.png";
 
 function CardsDiscount({ discountPercentage }) {
   return (
@@ -15,11 +16,11 @@ function CardsDiscount({ discountPercentage }) {
           )}
           <AiOutlineShoppingCart
             // size={32}
-            className=" bg-[#3074F0] text-[#FFF] text-3xl py-1 px-1.5 absolute left-5 sm:left-0 bottom-32 sm:bottom-24  rounded-md hover:cursor-pointer"
+            className=" bg-[#3074F0] text-[#FFF] text-3xl py-1 px-1.5 absolute left-5 sm:left-0 bottom-40 sm:bottom-24  rounded-md hover:cursor-pointer"
           />
           <img
             className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-6  mx-auto"
-            src="https://s3-alpha-sig.figma.com/img/5768/b272/374e78a22a2cb01c042636ef79f9bcbf?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fcqCWnZ-lxAx9-ftFFkVWkDTFAMpWfbs-mtncce-m3pyT3m4RxCJBUWIlOhve4G4GkBfpTFzxU~yApwNisaRh9PS63ATUHD5TcfI1tSXDTX7ANRWPRyoj61mDkjpq~XJinbfIaV3xObRdGjipPT-WH7~kkEOayDrNVJXj2K9PE25SGBgKtagyVWlRnOn-vQmXCyueaWt-Tio7ve-qAcRM22B7D0mtIoehkFh7zhptjLp-RUElfhnSYnpHU-jAJHHJo7vHsigwCBmMZK0dYK2tk~gu69HZmOSC6pijEFb-i6BrNGMVl3c5bVsQ6JVfvdsQkNaooOejChpv5FxmsBQ0g__"
+            src={productImage}
             alt=""
           />
 
