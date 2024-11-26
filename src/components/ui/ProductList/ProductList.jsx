@@ -1,8 +1,8 @@
-import CardsDiscount from "../CardDiscount/CardsDiscount";
+import ProductListCard from "./ProductListCard";
 
 function ProductList() {
   return Array.from({ length: 20 }).map((item, index) => (
-    <CardsDiscount key={index} />
+    <ProductListCard key={index} />
   ));
 }
 

@@ -12,16 +12,21 @@ function ProductListPage() {
     <>
       <Header />
       <HeaderProductList />
-      <main dir="rtl" className="px-14 flex gap-5 py-6">
+      <main
+        dir="rtl"
+        className="px-14 sm:px-4 flex gap-5 py-6 sm:py-2 bg-[#f5f5f5a3]"
+      >
         <SideBar />
-        <div className="w-full">
+        <div className="w-full ">
           <Navbar />
-          <div className="flex flex-wrap gap-9">
+          <div className="flex flex-wrap gap-9 sm:gap-2 ">
             <ProductList />
           </div>
         </div>
       </main>
-      <Pagination />
+      <div className="px-14 sm:px-4 flex justify-center py-6">
+        <Pagination />
+      </div>
       <Footer />
     </>
   );
