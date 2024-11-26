@@ -1,3 +1,4 @@
+import featuresImage from "../../../assets/products_images/features1.png";
 function Featers() {
   return (
     <div
@@ -8,7 +9,7 @@ function Featers() {
         <div>
           <img
             className="w-10 sm:w-6 h-10 sm:h-6"
-            src="https://s3-alpha-sig.figma.com/img/531d/08c8/5bfdf7e1e44a9d259626361ff9379207?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T488b4K972nm~I38j5aaxdZgajUzM5yXSMITgzCgwnFabJP5OmG6keCeQ1dsTHW6a~bD4rpuXm22tXMZdYXaLlE-iRN5VrdN8gFFgzJ02gjJz5KedF9JhwMiiOBr3eFCNCH6R~G7iv9iWUk~4RjIUrMYBuMDQHTBJGjxg7D2LyF1Ctpv8Z3FI8OUIRAPiYukTBsg~C9YND-J67WwY2NSfEVlWyy8equsmE-VnqfDPA9Myu24Vu4RjXcl7jFW5y9KZr~jk2gloNrhBPLFrdSjTFZrNEAQZ0rjNJBaumlfEmYDMlI8~QRVBvPffY0~B3e2R3dSDZl9JTV6YN1VZeruPg__"
+            src={featuresImage}
             alt="free shipping"
           />
         </div>
@@ -24,7 +25,7 @@ function Featers() {
       <div className="flex justify-between sm:flex-col  items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
         <img
           className="w-10 sm:w-6 h-10 sm:h-6"
-          src="https://s3-alpha-sig.figma.com/img/531d/08c8/5bfdf7e1e44a9d259626361ff9379207?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T488b4K972nm~I38j5aaxdZgajUzM5yXSMITgzCgwnFabJP5OmG6keCeQ1dsTHW6a~bD4rpuXm22tXMZdYXaLlE-iRN5VrdN8gFFgzJ02gjJz5KedF9JhwMiiOBr3eFCNCH6R~G7iv9iWUk~4RjIUrMYBuMDQHTBJGjxg7D2LyF1Ctpv8Z3FI8OUIRAPiYukTBsg~C9YND-J67WwY2NSfEVlWyy8equsmE-VnqfDPA9Myu24Vu4RjXcl7jFW5y9KZr~jk2gloNrhBPLFrdSjTFZrNEAQZ0rjNJBaumlfEmYDMlI8~QRVBvPffY0~B3e2R3dSDZl9JTV6YN1VZeruPg__"
+          src={featuresImage}
           alt="free shipping"
         />
         <div>
@@ -39,7 +40,7 @@ function Featers() {
       <div className="flex justify-between sm:flex-col  items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
         <img
           className="w-10 sm:w-6 h-10 sm:h-6"
-          src="https://s3-alpha-sig.figma.com/img/531d/08c8/5bfdf7e1e44a9d259626361ff9379207?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T488b4K972nm~I38j5aaxdZgajUzM5yXSMITgzCgwnFabJP5OmG6keCeQ1dsTHW6a~bD4rpuXm22tXMZdYXaLlE-iRN5VrdN8gFFgzJ02gjJz5KedF9JhwMiiOBr3eFCNCH6R~G7iv9iWUk~4RjIUrMYBuMDQHTBJGjxg7D2LyF1Ctpv8Z3FI8OUIRAPiYukTBsg~C9YND-J67WwY2NSfEVlWyy8equsmE-VnqfDPA9Myu24Vu4RjXcl7jFW5y9KZr~jk2gloNrhBPLFrdSjTFZrNEAQZ0rjNJBaumlfEmYDMlI8~QRVBvPffY0~B3e2R3dSDZl9JTV6YN1VZeruPg__"
+          src={featuresImage}
           alt="free shipping"
         />
         <div>
@@ -54,7 +55,7 @@ function Featers() {
       <div className="flex justify-between sm:flex-col  items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
         <img
           className="w-10 sm:w-6 h-10 sm:h-6"
-          src="https://s3-alpha-sig.figma.com/img/531d/08c8/5bfdf7e1e44a9d259626361ff9379207?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T488b4K972nm~I38j5aaxdZgajUzM5yXSMITgzCgwnFabJP5OmG6keCeQ1dsTHW6a~bD4rpuXm22tXMZdYXaLlE-iRN5VrdN8gFFgzJ02gjJz5KedF9JhwMiiOBr3eFCNCH6R~G7iv9iWUk~4RjIUrMYBuMDQHTBJGjxg7D2LyF1Ctpv8Z3FI8OUIRAPiYukTBsg~C9YND-J67WwY2NSfEVlWyy8equsmE-VnqfDPA9Myu24Vu4RjXcl7jFW5y9KZr~jk2gloNrhBPLFrdSjTFZrNEAQZ0rjNJBaumlfEmYDMlI8~QRVBvPffY0~B3e2R3dSDZl9JTV6YN1VZeruPg__"
+          src={featuresImage}
           alt="free shipping"
         />
         <div>
