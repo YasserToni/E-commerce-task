@@ -24,25 +24,32 @@ function ProductPage() {
     <>
       <Header />
       <HeaderProductList />
-      <main dir="rtl" className="px-14 flex gap-5 py-6">
+      <main
+        dir="rtl"
+        className="px-14 sm:px-4 flex sm:flex-col gap-5 sm:gap-2 py-6 sm:py-3"
+      >
         <SwiperCard />
-        <div dir="rtl" className="p-7 card-shadow">
+        <div dir="rtl" className="p-7 sm:px-2 sm:py-0 card-shadow">
           <ProductDetials />
           <Spaces />
           <Colors />
-          <AddToCard />
+
           <DataHead title={"للطلب السريع يرجي إدخال البيانات المطلوبة:"} />
           <Input />
           <DataHead title={"عروض التوفير"} />
           <RadioButton />
           <BuyButton />
-          <ProductDescription />
+          <AddToCard />
+          {/* <ProductDescription /> */}
           <PolicyDetials />
         </div>
       </main>
-      <div dir="rtl" className="px-14 py-14 flex justify-between items-center">
+      <div
+        dir="rtl"
+        className="px-14 sm:px-4 py-14 sm:py-4 flex sm:flex-col justify-between items-center"
+      >
         <WriteComment />
-        <div className="w-[555px] flex flex-col gap-2 ">
+        <div className="w-[555px] sm:w-[339px] flex flex-col gap-2 sm:gap-1 sm:mt-4 sm:pr-4">
           <Rate percentage={60} numberofStar={5} />
           <Rate percentage={40} numberofStar={4} />
           <Rate percentage={20} numberofStar={3} />
@@ -50,9 +57,9 @@ function ProductPage() {
           <Rate percentage={5} numberofStar={1} />
         </div>
       </div>
-      <Reviews />
-      <Reviews />
-      <div className="px-14">
+      <Reviews carouselDirection="carousel-track_left" />
+      <Reviews carouselDirection="carousel-track_right" />
+      <div className="px-14 sm:px-4">
         <ProductRow sectionName={"منتجات مشابهه"} />
       </div>
       <ShoppingCard />

@@ -1,14 +1,13 @@
 import { FaStar } from "react-icons/fa";
 
 function Rate({ percentage, numberofStar }) {
-  console.log(percentage / 100);
   return (
-    <div dir="rtl" className="flex items-center gap-10">
-      <div className="flex items-center gap-3">
-        <span className="font-normal font-fr text-base leading-4 text-[#6B6B6B]">
+    <div dir="rtl" className="flex items-center gap-10 sm:gap-3">
+      <div className="flex items-center gap-3 sm:gap-1">
+        <span className="font-normal font-fr text-base sm:text-[10px] leading-4 sm:leading-3 text-[#6B6B6B]">
           {numberofStar}
         </span>
-        <span dir="ltr" className="flex gap-1">
+        <span dir="ltr" className="flex gap-1 sm:gap-[2px] sm:text-[7px]">
           <FaStar
             className={`${
               numberofStar >= 1 ? "text-primary " : "text-[#787878]"
@@ -36,14 +35,14 @@ function Rate({ percentage, numberofStar }) {
           />
         </span>
       </div>
-      <div className="flex items-center gap-3">
-        <div className="h-1.5 w-[316px] bg-gray-300 relative overflow-hidden rounded-lg">
+      <div className="flex items-center gap-3 sm:gap-1">
+        <div className="h-1.5 sm:h-1 w-[316px] sm:w-[193px] bg-gray-300 relative overflow-hidden rounded-lg">
           <div
             className={`h-full bg-blue-500 origin-right transform scale-x-[60%}] rounded-lg`}
             style={{ transformOrigin: "right" }}
           />
         </div>
-        <span className="font-medium font-fm text-sm leading-4 text-[#6B6B6B]">
+        <span className="font-medium font-fm text-sm sm:text-[9px] leading-4 sm:leading-[10px] text-[#6B6B6B]">
           {percentage}%
         </span>
       </div>

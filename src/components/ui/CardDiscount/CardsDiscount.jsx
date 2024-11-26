@@ -1,10 +1,15 @@
 import { FaStar } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import productImage from "../../../assets/products_images/iphone.png";
+import { useNavigate } from "react-router-dom";
 
 function CardsDiscount({ discountPercentage }) {
+  const navigate = useNavigate();
   return (
-    <div className="w-64 sm:w-[168px] h-96 sm:h-[248px] p-2 rounded-xl shadow-card relative mb-3">
+    <div
+      onClick={() => navigate("/product-detials")}
+      className="w-64 sm:w-[168px] h-96 sm:h-[248px] p-2 rounded-xl shadow-card relative mb-3 cursor-pointer"
+    >
       {discountPercentage ? (
         <span className="flex items-center font-medium text-sm sm:text-[10px] rounded-xl  py-1 sm:py-0 px-3 sm:px-1  bg-[#FF2828] font-logo text-[#FFFFFF]  absolute right-4">
           خصم {discountPercentage} %

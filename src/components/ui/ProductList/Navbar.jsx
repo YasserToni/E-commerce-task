@@ -21,7 +21,7 @@ function Navbar() {
           <BsArrowDownUp />
         </span>
       </div>
-      <div className="flex items-center gap-2 sm:hidden">
+      <div className="flex items-center gap-2 sm:hidden ml-11">
         <span className="font-normal font-fr text-base text-[#5C5C5C]">
           ترتيب حسب
         </span>

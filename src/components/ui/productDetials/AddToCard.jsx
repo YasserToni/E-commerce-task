@@ -15,9 +15,12 @@ function AddToCard() {
   };
 
   return (
-    <div dir="rtl" className="flex items-center gap-4 mb-7">
+    <div
+      dir="rtl"
+      className="flex items-center gap-4 sm:gap-2 mb-7 w-[584px] sm:w-[305px]"
+    >
       {/* Add to Cart Button */}
-      <button className="flex items-center justify-center gap-2 py-2 px-28 rounded-[61px] font-bold font-fb text-lg bg-black text-white max-w-[360px] ">
+      <button className="flex justify-center items-center gap-2 rounded-[61px] font-bold font-fb text-lg sm:text-base shrink-0 bg-black text-white h-[49px] sm:h-[32px] sm:w-[201px] w-[360px] ">
         <AiOutlineShoppingCart size={25} />
         <ShoppingCard />
       </button>
@@ -25,7 +28,7 @@ function AddToCard() {
         {/* Increase Button */}
         <button
           onClick={handleIncrease}
-          className="rounded-r-[61px] py-1 px-5 border-r border-y border-[#ECECEC] text-[#3074F0] text-2xl"
+          className="rounded-r-[61px] sm:rounded-l-[0px] py-1 sm:py-0 px-5 sm:px-3 h-[49px]  sm:w-[33px] sm:h-[29px] border-r border-y border-[#ECECEC] text-[#3074F0] text-2xl sm:leading-7"
         >
           +
         </button>
@@ -34,13 +37,13 @@ function AddToCard() {
           type="number"
           value={quantity}
           readOnly
-          className="text-center border border-[#ECECEC] py-2 max-w-[100px]"
+          className="text-center border border-[#ECECEC] py-2 w-[91px] h-[49px] sm:max-w-[33px] sm:h-[29px]"
         />
 
         {/* Decrease Button */}
         <button
           onClick={handleDecrease}
-          className="rounded-l-[61px] py-1 px-5 border-l border-y border-[#ECECEC] text-2xl"
+          className="rounded-l-[61px] sm:rounded-r-[0px]  py-1 sm:py-0 px-5 h-[49px] sm:h-[29px]  sm:px-3 border-l border-y border-[#ECECEC] text-2xl sm:leading-7"
         >
           -
         </button>
