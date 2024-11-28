@@ -24,7 +24,7 @@ const CountdownTimer = ({ initialHours }) => {
   const { hours, minutes, seconds } = formatTime(timeLeft);
 
   return (
-    <div dir="rtl" className="flex gap-2 items-end">
+    <div dir="rtl" className="flex gap-2 items-center">
       <span className="font-fr text-xl sm:text-sm leading-4 font-normal text-[#454545] mx-2 flex items-end">
         ينتهي في
       </span>

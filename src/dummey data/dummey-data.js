@@ -78,12 +78,6 @@ export const section_data = [
     imgAlt: "infinix",
   },
   {
-    cardName: "بلاكبيري",
-    imgSrc:
-      "https://s3-alpha-sig.figma.com/img/1a28/69db/f1054b0b5abe1938c4e1abe53d314930?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKaGemXfif31cqZvetaclP-tp0yxA5e0GF-O7qGexD8JNcSjYfLNc~6qqGciXQiDD3yWQPZNDkmbVKZ~r7fuHM5-Ldr8t-vjh6~0941zm9vBD94AwRIc6bmEPFg-m5Wz6tF1hO9I357v6yxpDAJWnACb066EfL-E0Oaee8WTs7SuNwwnaeBwoW7QkWwaSBjx9nEPb8ww14LADowMWBmhlCjt6Vdb5ZsF~mFZ-WZjdzr4CErwg2wwit8hz3iVI90iHPSl5h8ZSwmMCK9NTfvVz~LZ3LHI8j3TNRIIvP-Lq-TDbmklHX2v2bhye1wbX5b26~ZVUxa-gInbVeBGd-rCBA__",
-    imgAlt: "blackberry",
-  },
-  {
     cardName: "زد تي إي",
     imgSrc:
       "https://s3-alpha-sig.figma.com/img/f51a/a779/53044c95d17710052341d2e2340c205d?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bkh8ayz3x7~8VGHdR~-wya7WETCG94eX~ca5~HZwmr2-2N-Hxa1JGopDjGhGol0w4N2u~gmsogs88nufiCfMqL~5uFfOYUXsdi2zfP1mttR7MELY-DPrZzSQzHq4t6uqdl6EikdDtQxGR2DuBQNw-NLuv0GzW4DVNhCqm3k~quKCFXp7IwPBwcMv28M6qh0qsNzYuWe8BUDtNkDyeiCLohUiLh~1~z2nBhXHBBzsn~2Tfbc3Qlb8xJJCDXaEfG7HxHboqRzGW2lV2x5CGjzj3aTCKh5EKAMcF9k~zUS4vA0cACCuU1NS96MYNa6lqwcussxJ3zQ9D6gUw-nfzrM6uQ__",
@@ -96,22 +90,10 @@ export const section_data = [
     imgAlt: "lenovo",
   },
   {
-    cardName: "مايكروسوفت",
-    imgSrc:
-      "https://s3-alpha-sig.figma.com/img/1a28/69db/f1054b0b5abe1938c4e1abe53d314930?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKaGemXfif31cqZvetaclP-tp0yxA5e0GF-O7qGexD8JNcSjYfLNc~6qqGciXQiDD3yWQPZNDkmbVKZ~r7fuHM5-Ldr8t-vjh6~0941zm9vBD94AwRIc6bmEPFg-m5Wz6tF1hO9I357v6yxpDAJWnACb066EfL-E0Oaee8WTs7SuNwwnaeBwoW7QkWwaSBjx9nEPb8ww14LADowMWBmhlCjt6Vdb5ZsF~mFZ-WZjdzr4CErwg2wwit8hz3iVI90iHPSl5h8ZSwmMCK9NTfvVz~LZ3LHI8j3TNRIIvP-Lq-TDbmklHX2v2bhye1wbX5b26~ZVUxa-gInbVeBGd-rCBA__",
-    imgAlt: "microsoft",
-  },
-  {
     cardName: "أيسر",
     imgSrc:
       "https://s3-alpha-sig.figma.com/img/f51a/a779/53044c95d17710052341d2e2340c205d?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bkh8ayz3x7~8VGHdR~-wya7WETCG94eX~ca5~HZwmr2-2N-Hxa1JGopDjGhGol0w4N2u~gmsogs88nufiCfMqL~5uFfOYUXsdi2zfP1mttR7MELY-DPrZzSQzHq4t6uqdl6EikdDtQxGR2DuBQNw-NLuv0GzW4DVNhCqm3k~quKCFXp7IwPBwcMv28M6qh0qsNzYuWe8BUDtNkDyeiCLohUiLh~1~z2nBhXHBBzsn~2Tfbc3Qlb8xJJCDXaEfG7HxHboqRzGW2lV2x5CGjzj3aTCKh5EKAMcF9k~zUS4vA0cACCuU1NS96MYNa6lqwcussxJ3zQ9D6gUw-nfzrM6uQ__",
     imgAlt: "acer",
-  },
-  {
-    cardName: "توشيبا",
-    imgSrc:
-      "https://s3-alpha-sig.figma.com/img/1a28/69db/f1054b0b5abe1938c4e1abe53d314930?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKaGemXfif31cqZvetaclP-tp0yxA5e0GF-O7qGexD8JNcSjYfLNc~6qqGciXQiDD3yWQPZNDkmbVKZ~r7fuHM5-Ldr8t-vjh6~0941zm9vBD94AwRIc6bmEPFg-m5Wz6tF1hO9I357v6yxpDAJWnACb066EfL-E0Oaee8WTs7SuNwwnaeBwoW7QkWwaSBjx9nEPb8ww14LADowMWBmhlCjt6Vdb5ZsF~mFZ-WZjdzr4CErwg2wwit8hz3iVI90iHPSl5h8ZSwmMCK9NTfvVz~LZ3LHI8j3TNRIIvP-Lq-TDbmklHX2v2bhye1wbX5b26~ZVUxa-gInbVeBGd-rCBA__",
-    imgAlt: "toshiba",
   },
   {
     cardName: "ديل",

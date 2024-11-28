@@ -7,6 +7,15 @@
   --color-secondary: #f97316; /* Orange */
   --color-accent: #22c55e; /* Green */
 }
+
+@font-face {
+  font-family: "DIN Next LT W23";
+  src: url("/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "CustomFontR";
   src: url("/src/assets/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
@@ -46,12 +55,25 @@
 .card-shadow {
   box-shadow: 0px 4px 19px 0px #0000000d;
 }
+.product-card-shadow {
+  box-shadow: 0px 2.65px 17.72px 0px #0000000d;
+}
+.prodcuctList-card-shadow {
+  box-shadow: 0px 5.27px 35.3px 0px #0000000f;
+}
+.sidebar-shadow {
+  box-shadow: 0px 4px 23.3px 0px #0000000d;
+}
 .box-shadow {
   box-shadow: 0px 4px 19px 0px #0000000f;
 }
 .bottom-shadow {
   box-shadow: 0px 4px 19.2px 0px #3074f066;
 }
+.button-shadow {
+  box-shadow: 0px 4px 16.3px 0px #0000001a;
+}
+
 .linerBackgound {
   background: linear-gradient(268.03deg, #3074f0 2.44%, #659cff 142.11%);
 }

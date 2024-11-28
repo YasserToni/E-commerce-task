@@ -18,6 +18,7 @@ import Rate from "@/components/ui/productDetials/Rate";
 import WriteComment from "@/components/ui/productDetials/WriteComment";
 import Reviews from "@/components/ui/productDetials/Reviews";
 import ShoppingCard from "@/components/ui/productDetials/ShoppingCard";
+import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 
 function ProductPage() {
   return (
@@ -60,7 +61,7 @@ function ProductPage() {
       <Reviews carouselDirection="carousel-track_left" />
       <Reviews carouselDirection="carousel-track_right" />
       <div className="px-14 sm:px-4">
-        <ProductRow sectionName={"منتجات مشابهه"} />
+        <ProductRowWithCursoul sectionName={"منتجات مشابهه"} />
       </div>
       <ShoppingCard />
       <Footer />

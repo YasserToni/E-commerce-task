@@ -6,6 +6,7 @@ import Featers from "../components/ui/features/Featers";
 import SectionRow from "../components/SectionRow";
 import SpecialRow from "../components/SpecialRow";
 import SpecialCard from "../components/ui/special/SpecialCard";
+import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 
 function HomePage() {
   return (
@@ -14,13 +15,14 @@ function HomePage() {
       <main className="px-14 sm:px-4">
         <HerroSwiper />
         <Featers />
-        <ProductRow
+        <ProductRowWithCursoul
           sectionName={"خصم لفترة محدودة"}
           discountPeriod={1}
           discountPercentage={40}
         />
         <SectionRow sectionName={"الاقسام"} />
-        <ProductRow sectionName={"أفضل المبيعات"} />
+        {/* <ProductRow sectionName={"أفضل المبيعات"} /> */}
+        <ProductRowWithCursoul sectionName={"أفضل المبيعات"} />
         <SpecialRow sectionName={"عروض خاصة"} />
         <ProductRow sectionName={"الهواتف"} />
       </main>

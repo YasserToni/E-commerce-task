@@ -29,20 +29,6 @@ const SectionRow = ({ sectionName }) => {
             {sectionName}
           </span>
         </div>
-        <div className="flex gap-1">
-          <button
-            onClick={scrollLeft}
-            className="bg-primary w-8 h-8 rounded-full text-white shadow-swiper flex justify-center items-center "
-          >
-            <GoArrowRight />
-          </button>
-          <button
-            onClick={scrollRight}
-            className="bg-white w-8 h-8 rounded-full text-primary shadow-swiper flex justify-center items-center "
-          >
-            <GoArrowLeft />
-          </button>
-        </div>
       </div>
 
       {/* Product Cards Row */}

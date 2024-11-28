@@ -29,7 +29,7 @@ const SpecialRow = ({ sectionName }) => {
             {sectionName}
           </span>
         </div>
-        <div className="flex gap-1">
+        {/* <div className="flex gap-1">
           <button
             onClick={scrollLeft}
             className="bg-primary w-8 h-8 rounded-full text-white shadow-swiper flex justify-center items-center "
@@ -42,7 +42,7 @@ const SpecialRow = ({ sectionName }) => {
           >
             <GoArrowLeft />
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Special Cards Row */}
@@ -50,7 +50,7 @@ const SpecialRow = ({ sectionName }) => {
         ref={rowRef}
         className="flex gap-4 overflow-x-auto hide-scrollbar shrink-0"
       >
-        {Array.from({ length: 8 }).map((_, index) => (
+        {Array.from({ length: 4 }).map((_, index) => (
           <SpecialCard
             key={index + 1}
             cardName="أيفون"

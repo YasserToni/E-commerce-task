@@ -1,7 +1,5 @@
-import { CiSearch } from "react-icons/ci";
 import { RiMenu3Fill } from "react-icons/ri";
-import { HiOutlineShoppingCart } from "react-icons/hi2";
-import { Link } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   Sheet,
   SheetContent,
@@ -14,34 +12,38 @@ import image from "../../../assets/products_images/iphone.png";
 import logo from "../../../../public/logg.jpg";
 import { GoTrash } from "react-icons/go";
 import { useState } from "react";
+import cardIcon from "../../../assets/icons/shopping-cart.svg";
+import searchIcon from "../../../assets/icons/search-normal.svg";
+import "./header.css";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(true);
+  const navigate = useNavigate();
   console.log(toggleMenu);
   return (
     <div
       dir="rtl"
-      className="flex justify-between items-center border-b py-2 px-14 sm:px-4 font-logo w-full"
+      className="flex justify-between items-center border-b sm:border-y-0 py-2 px-14 sm:px-4 font-logo w-full h-[103px] sm:h-[50px]"
     >
-      <div className=" flex justify-between items-center gap-3 sm:gap-1 relative">
-        <div
+      <nav className=" flex justify-between items-center gap-3 sm:gap-1 relative">
+        <ul
           className={`${
             toggleMenu ? "hidden" : "flex"
           } absolute top-8 right-0 w-[330px] rounded-lg h-[200px] bg-[#eeeeee] z-20  flex-col justify-center gap-3 p-4 font-fm font-medium text-lg `}
         >
-          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+          <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             الصفحة الرئيسية
-          </span>
-          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+          </li>
+          <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             منتجاتنا
-          </span>
-          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+          </li>
+          <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             معلومات عنا
-          </span>
-          <span className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
+          </li>
+          <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             تواصل معنا
-          </span>
-        </div>
+          </li>
+        </ul>
         <span
           onClick={() => {
             setToggleMenu(!toggleMenu);
@@ -54,13 +56,13 @@ function Header() {
         <span className="font-bold text-3xl sm:text-base sm:leading-7 leading-10">
           تسوق
         </span>
-      </div>
+      </nav>
       <ul className="flex justify-between  gap-14 sm:hidden">
-        <li className="text-lg font-medium leading-6">
-          <Link to="/">الصفحة الرئيسية </Link>
+        <li>
+          <NavLink to="/">الصفحة الرئيسية </NavLink>
         </li>
-        <li className="font-normal">
-          <Link to="/product-list">منتجاتنا</Link>
+        <li>
+          <NavLink to="/product-list">منتجاتنا</NavLink>
         </li>
         <li>
           <a href="#">معلومات عنا</a>
@@ -70,10 +72,14 @@ function Header() {
         </li>
       </ul>
       <div className="flex justify-between gap-8 sm:gap-4">
-        <CiSearch />
+        <div className="w-6 h-6">
+          <img src={searchIcon} alt="Card_cion" />
+        </div>
         <Sheet dir="rtl">
           <SheetTrigger>
-            <HiOutlineShoppingCart />
+            <div>
+              <img src={cardIcon} alt="Card_cion" />
+            </div>
           </SheetTrigger>
           <SheetContent className="w-[500px] sm:w-[540px]">
             <SheetHeader className="flex justify-end">
@@ -134,7 +140,10 @@ function Header() {
                     <button className="w-[228px] h-[48px]  rounded-[61px] bg-white text-primary text-xl font-bold font-fb border border-primary">
                       متابعة التسوق
                     </button>
-                    <button className="h-[48px] w-[228px]  rounded-[61px] bg-primary border  text-xl font-bold font-fb text-white linerBackgound">
+                    <button
+                      onClick={() => navigate("/order")}
+                      className="h-[48px] w-[228px]  rounded-[61px] bg-primary border  text-xl font-bold font-fb text-white linerBackgound"
+                    >
                       إتمام الشراء
                     </button>
                   </div>

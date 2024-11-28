@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function RadioButton() {
   const [selected, setSelected] = useState(false);

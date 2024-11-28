@@ -2,8 +2,10 @@ import { RiShieldCheckLine } from "react-icons/ri";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { FiPhoneCall } from "react-icons/fi";
 import logo from "../../../../public/logg.jpg";
+import { useNavigate } from "react-router-dom";
 
 function PaymentHeader() {
+  const navigate = useNavigate();
   return (
     <header
       dir="rtl"
@@ -23,7 +25,12 @@ function PaymentHeader() {
           alt="Logo"
           className="w-10 sm:w-6 h-10 sm:h-6 flex items-center"
         />
-        <span className="font-bold text-3xl sm:text-lg leading-10 ">تسوق</span>
+        <span
+          onClick={() => navigate("/")}
+          className="font-bold text-3xl sm:text-lg leading-10 cursor-pointer"
+        >
+          تسوق
+        </span>
       </div>
       <div className="flex gap-4 sm:gap-2">
         <div className="flex items-center">

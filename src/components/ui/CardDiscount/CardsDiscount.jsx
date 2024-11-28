@@ -1,34 +1,32 @@
 import { FaStar } from "react-icons/fa";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import productImage from "../../../assets/products_images/iphone.png";
-import { useNavigate } from "react-router-dom";
+import shoppingCardIcon from "../../../assets/icons/shopping-cart-icon.svg";
 
 function CardsDiscount({ discountPercentage }) {
-  const navigate = useNavigate();
   return (
-    <div
-      onClick={() => navigate("/product-detials")}
-      className="w-64 sm:w-[168px] h-96 sm:h-[248px] p-2 rounded-xl shadow-card relative mb-3 cursor-pointer"
-    >
+    <div className="w-64 sm:w-[168px] h-96 sm:h-fit p-3 rounded-xl product-card-shadow relative mb-3 cursor-pointer">
       {discountPercentage ? (
-        <span className="flex items-center font-medium text-sm sm:text-[10px] rounded-xl  py-1 sm:py-0 px-3 sm:px-1  bg-[#FF2828] font-logo text-[#FFFFFF]  absolute right-4">
+        <span className="flex items-center font-medium text-sm sm:text-[10px] rounded-xl  py-1 sm:py-0 px-3 sm:px-1  bg-[#FF2828] font-logo text-[#FFFFFF]  absolute top-10 sm:top-6 right-4">
           خصم {discountPercentage} %
         </span>
       ) : (
         ""
       )}
-      <AiOutlineShoppingCart
-        // size={32}
-        className=" bg-[#3074F0] text-[#FFF] text-3xl py-1 px-1.5 absolute left-5 sm:left-0 bottom-40 sm:bottom-24  rounded-md hover:cursor-pointer"
-      />
+      <div className="text-[#FFFFFF] sm:w-6 sm:h-6 w-[36px] h-[34px]">
+        <img
+          src={shoppingCardIcon}
+          alt="shopping cart icon"
+          className="absolute left-3 sm:left-5  bottom-28 sm:bottom-14 hover:cursor-pointer py-1 px-1.5 bg-[#3074F0] rounded-md sm:w-6 sm:h-6 w-[36px] h-[34px]"
+        />
+      </div>
       <img
-        className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-6  mx-auto"
+        className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-1  mx-auto"
         src={productImage}
-        alt=""
+        alt="product image"
       />
 
       <div>
-        <h3 className="font-normal text-lg sm:text-xs sm:leading-4 font-logo text-[#454545]">
+        <h3 className="font-normal text-lg sm:text-xs sm:leading-4 font-logo text-[#454545] truncate">
           سامسونج الترا جالاكسي. شريحتان اتصال بلون بنفسجي.
         </h3>
         <div className="flex items-center justify-between">

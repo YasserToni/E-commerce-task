@@ -11,7 +11,7 @@ function Colors() {
     { name: "white", title: "بنفسجي" },
   ];
   return (
-    <div dir="rtl" className="my-4 sm:my-4">
+    <div dir="rtl" className="my-4  sm:my-4">
       <div
         dir="rtl"
         className="my-2 font-semibold font-fm text-lg text-[#454545]"

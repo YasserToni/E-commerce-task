@@ -24,7 +24,7 @@ function SideBar() {
   };
 
   return (
-    <div className="sm:hidden shadow-card px-8 pt-4 pb-8 h-[650px] w-[292px] bg-white">
+    <div className="sm:hidden shadow-card px-8 pt-4 pb-8 h-fit w-[292px] bg-white sidebar-shadow rounded-[16px]">
       <span className="block font-bold text-xl text-[#212328] px-4 py-2">
         الاقسام
       </span>

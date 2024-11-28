@@ -2,8 +2,27 @@ import CardsDiscount from "./ui/CardDiscount/CardsDiscount";
 import CountdownTimer from "./CountdownTimer";
 import { Link } from "react-router-dom";
 import arrowIcon from "../../src/assets/icons/Arrow 4.svg";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import { useRef } from "react";
 
-const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
+const ProductRowWithCursoul = ({
+  sectionName,
+  discountPeriod,
+  discountPercentage,
+}) => {
+  const rowRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (rowRef.current) {
+      rowRef.current.scrollBy({ left: -600, behavior: "smooth" });
+    }
+  };
+
+  const scrollRight = () => {
+    if (rowRef.current) {
+      rowRef.current.scrollBy({ left: 600, behavior: "smooth" });
+    }
+  };
   return (
     <div dir="rtl" className="relative w-full mb-14 sm:mb-7">
       {/* Pagination Buttons */}
@@ -22,15 +41,29 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
           )}
         </div>
         <div className="flex gap-2 items-end">
-          <Link className="font-normal text-lg sm:text-sm sm:leading-5 text-[#3074F0] leading-[25px] underline">
-            عرض المزيد
-          </Link>
-          <img src={arrowIcon} alt="Arrow" />
+          <div className="flex gap-1">
+            <button
+              onClick={scrollRight}
+              className="bg-primary w-8 h-8 rounded-full text-white shadow-swiper flex justify-center items-center "
+            >
+              <GoArrowRight />
+            </button>
+            <button
+              onClick={scrollLeft}
+              className="button-shadow bg-white w-8 h-8 rounded-full text-primary shadow-swiper flex justify-center items-center "
+            >
+              <GoArrowLeft />
+            </button>
+          </div>
+          {/* <img src={arrowIcon} alt="Arrow" /> */}
         </div>
       </div>
 
       {/* Product Cards Row */}
-      <div className="flex gap-4 sm:gap-2 overflow-x-auto hide-scrollbar">
+      <div
+        ref={rowRef}
+        className="flex gap-4 sm:gap-2 overflow-x-auto hide-scrollbar"
+      >
         {Array.from({ length: 20 }).map((_, index) => (
           <CardsDiscount
             discountPercentage={discountPercentage}
@@ -42,4 +75,4 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
   );
 };
 
-export default ProductRow;
+export default ProductRowWithCursoul;

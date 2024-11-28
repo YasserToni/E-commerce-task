@@ -1,4 +1,5 @@
 import RadioButton from "../productDetials/RadioButton";
+import PaymentOptions from "./PaymentOptions";
 
 function PaymentChooser() {
   return (
@@ -14,7 +15,7 @@ function PaymentChooser() {
           قم باختيار طريقه الدفع المناسبة لك
         </span>
       </div>
-      <RadioButton />
+      <PaymentOptions />
     </div>
   );
 }
