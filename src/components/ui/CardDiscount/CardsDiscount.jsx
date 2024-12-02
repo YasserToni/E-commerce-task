@@ -1,6 +1,7 @@
 import { FaStar } from "react-icons/fa";
 import productImage from "../../../assets/products_images/iphone.png";
 import shoppingCardIcon from "../../../assets/icons/shopping-cart-icon.svg";
+import { Link } from "react-router-dom";
 
 function CardsDiscount({ discountPercentage }) {
   return (
@@ -19,11 +20,13 @@ function CardsDiscount({ discountPercentage }) {
           className="absolute left-3 sm:left-5  bottom-28 sm:bottom-14 hover:cursor-pointer py-1 px-1.5 bg-[#3074F0] rounded-md sm:w-6 sm:h-6 w-[36px] h-[34px]"
         />
       </div>
-      <img
-        className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-1  mx-auto"
-        src={productImage}
-        alt="product image"
-      />
+      <Link to="product">
+        <img
+          className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-1  mx-auto"
+          src={productImage}
+          alt="product image"
+        />
+      </Link>
 
       <div>
         <h3 className="font-normal text-lg sm:text-xs sm:leading-4 font-logo text-[#454545] truncate">

@@ -1,14 +1,16 @@
-import PaymentHeader from "@/components/ui/payment/PaymentHeader";
+// import PaymentHeader from "@/components/ui/payment/PaymentHeader";
 import successPaymentImage from "../assets/payment/succes_payment.png";
 import Card from "../components/ui/order/Card";
 import MoenyDetails from "@/components/ui/order/MoenyDetails";
 import { Link } from "react-router-dom";
 import Footer from "@/components/ui/footer/Footer";
+import Header from "@/components/ui/header/Header";
+import CardForSuccessPage from "@/components/ui/payment/CardForSuccessPage";
 
 function SuccessPage() {
   return (
     <>
-      <PaymentHeader />
+      <Header />
       <div dir="rtl" className=" flex flex-col ">
         <main className="flex  justify-center items-center flex-col mx-14 sm:mx-8">
           <img
@@ -30,7 +32,7 @@ function SuccessPage() {
             <div className="font-bold font-fb text-[26px] sm:text-lg text-[#252534]">
               ملخص الطلب
             </div>
-            <Card />
+            <CardForSuccessPage />
             <div className="border-t text-[#E5E9F1]">
               <MoenyDetails />
             </div>
@@ -41,14 +43,12 @@ function SuccessPage() {
               </div>
             </div>
           </div>
-          <button>
-            <Link
-              to={"/"}
-              className="flex justify-center items-center w-[320px] sm:w-[237px] h-[60px] sm:h-[43px] bg-primary text-white rounded-[60px] font-bold font-fb text-xl sm:text-base mb-10 sm:mb-5"
-            >
-              الذهاب الي الصفحة الرئيسية
-            </Link>
-          </button>
+          <Link
+            to={"/"}
+            className="flex justify-center items-center w-[320px] sm:w-[237px] h-[60px] sm:h-[43px] bg-primary text-white rounded-[60px] font-bold font-fb text-xl sm:text-base mb-10 sm:mb-5"
+          >
+            الذهاب الي الصفحة الرئيسية
+          </Link>
         </main>
       </div>
       <Footer />

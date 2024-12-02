@@ -52,3 +52,8 @@
   width: 20px;
   border-radius: 30%;
 }
+@media only screen and (max-width: 768px) {
+  .swiper-thumbs {
+    height: 74px !important;
+  }
+}

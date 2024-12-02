@@ -9,14 +9,6 @@
 }
 
 @font-face {
-  font-family: "DIN Next LT W23";
-  src: url("/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "CustomFontR";
   src: url("/src/assets/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
       format("ttf"),

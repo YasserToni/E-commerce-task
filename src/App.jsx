@@ -33,11 +33,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/product-list" element={<ProductListPage />} />
-          <Route path="/product-detials" element={<ProductPage />} />
-          <Route path="/SuccessPayment" element={<SuccessPage />} />
-          <Route path="/FaildPayment" element={<FaildPayment />} />
-          <Route path="/order" element={<OrderPage />} />
+          <Route path="products" element={<ProductListPage />} />
+          <Route path="product" element={<ProductPage />} />
+          <Route path="checkout/success-order" element={<SuccessPage />} />
+          <Route path="failed-order" element={<FaildPayment />} />
+          <Route path="checkout" element={<OrderPage />} />
         </Routes>
       </BrowserRouter>
     </>

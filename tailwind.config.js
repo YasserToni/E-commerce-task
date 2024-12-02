@@ -60,9 +60,9 @@ export default {
         },
       },
       fontFamily: {
-        fr: ["sans-serif", "DIN Next LT W23"],
-        fb: ["sans-serif", "DIN Next LT W23"],
-        fm: ["sans-serif", "DIN Next LT W23"],
+        fr: ["CustomFontR", "sans-serif"],
+        fb: ["CustomFontB", "sans-serif"],
+        fm: ["CustomFontM", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
