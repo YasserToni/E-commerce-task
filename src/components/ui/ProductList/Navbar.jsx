@@ -1,6 +1,8 @@
 import { SelectDefault } from "./Select";
 import { CiFilter } from "react-icons/ci";
 import { BsArrowDownUp } from "react-icons/bs";
+import SectionFilter from "../filter/SectionFilter";
+import RankFilter from "../filter/RankFilter";
 
 function Navbar() {
   return (
@@ -15,10 +17,12 @@ function Navbar() {
       </div>
       <div className="hidden sm:flex gap-2 ml-4 text-sm">
         <span className="w-6 h-6 card-shadow bg-white flex items-center justify-center rounded-[8px]">
-          <CiFilter />
+          {/* <CiFilter /> */}
+          <SectionFilter />
         </span>
         <span className="w-6 h-6 card-shadow bg-white flex items-center justify-center rounded-[8px]">
-          <BsArrowDownUp />
+          {/* <BsArrowDownUp /> */}
+          <RankFilter />
         </span>
       </div>
       <div className="flex items-center gap-2 sm:hidden ml-11">
