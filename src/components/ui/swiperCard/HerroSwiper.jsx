@@ -36,7 +36,7 @@ function HerroSwiper() {
                   للالعاب. عروض وخصومات في انتظارك
                 </span>
                 <button
-                  onClick={() => navigate("/products/:id")}
+                  onClick={() => navigate("/products")}
                   className="mt-6 sm:mt-3 font-logo font-bold text-lg sm:text-xs text-white px-6 sm:px-2 py-3 sm:py-1 bg-primary rounded-lg sm:rounded-[23px]"
                 >
                   أطلب الان
