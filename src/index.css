@@ -4,34 +4,29 @@
 
 :root {
   --color-primary: #3074f0; /* Blue */
-  --color-secondary: #f97316; /* Orange */
-  --color-accent: #22c55e; /* Green */
 }
 
 @font-face {
-  font-family: "CustomFontR";
-  src: url("/src/assets/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
-      format("ttf"),
-    url("/src/assets/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
-      format("ttf");
-  font-weight: 400;
+  font-family: "DIN Next LT W23";
+  src: url("/fonts/DIN Next LT W23 Regular-29d5cc9399fee3fea467ed7bcb64db8591092806574f0c4c583b57c48bfccaf6.ttf")
+    format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CustomFontB";
-  src: url("/src/assets/fonts/din-next-lt-w23-bold.ttf") format("ttf"),
-    url("/src/assets/fonts/din-next-lt-w23-bold.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal;
+  font-family: "DIN Next LT W23 BOLD";
+  src: url("/fonts/din-next-lt-w23-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
 }
 @font-face {
-  font-family: "CustomFontM";
-  src: url("/src/assets/fonts//din-next-lt-w23-medium.ttf") format("ttf"),
-    url("/src/assets/fonts/din-next-lt-w23-medium.ttf") format("ttf");
-  font-weight: 500;
-  font-style: normal;
+  font-family: "DIN Next LT W23 MEDIUM";
+  src: url("/fonts/din-next-lt-w23-medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
 }
+
 .dropIcon:hover .dropMenu {
   display: flex !important;
 }

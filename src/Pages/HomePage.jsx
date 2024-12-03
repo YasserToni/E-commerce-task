@@ -10,7 +10,7 @@ import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 
 function HomePage() {
   return (
-    <>
+    <div className="font-fr">
       <Header />
       <main className="px-14 sm:px-4">
         <HerroSwiper />
@@ -27,7 +27,7 @@ function HomePage() {
         <ProductRow sectionName={"الهواتف"} />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

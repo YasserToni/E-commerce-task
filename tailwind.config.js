@@ -59,10 +59,15 @@ export default {
           5: "hsl(var(--chart-5))",
         },
       },
+      // fontFamily: {
+      //   fr: ["CustomFontR", "sans-serif"],
+      //   fb: ["CustomFontB", "sans-serif"],
+      //   fm: ["CustomFontM", "sans-serif"],
+      // },
       fontFamily: {
-        fr: ["CustomFontR", "sans-serif"],
-        fb: ["CustomFontB", "sans-serif"],
-        fm: ["CustomFontM", "sans-serif"],
+        fr: ["DIN Next LT W23", "sans-serif"],
+        fb: ["DIN Next LT W23 BOLD", "sans-serif"],
+        fm: ["DIN Next LT W23 MEDIUM", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
