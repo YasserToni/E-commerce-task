@@ -43,7 +43,7 @@ function AddReviews() {
                 الأسم الكامل
               </label>
               <input
-                className="p-[26px] sm:p-4 rounded-lg sm:w-[296px] border border-[#DEDEDE] placeholder:text-sm placeholder:text-[#A8A8AA]"
+                className="p-[26px] w-full sm:p-4 rounded-lg sm:w-[296px] border border-[#DEDEDE] placeholder:text-sm placeholder:text-[#A8A8AA]"
                 placeholder="ادخل اسمك بالكامل"
               />
             </div>
