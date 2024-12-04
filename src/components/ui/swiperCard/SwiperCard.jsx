@@ -60,11 +60,8 @@ function SwiperCard() {
           modules={[FreeMode, Navigation, Thumbs]}
           className="mySwiper"
         >
-          <SwiperSlide className="p-2 sm:h-fit">
-            <img
-              className="p-2 sm:max-w-[55px] sm:max-h-[54px] sm:py-0"
-              src={image}
-            />
+          <SwiperSlide>
+            <img className="p-2" src={image} />
           </SwiperSlide>
           <SwiperSlide>
             <img className="p-2" src={image} />
