@@ -12,7 +12,8 @@
   animation: scroll_right 15s linear infinite; /* Adjust duration as needed */
 }
 
-.carousel-track:hover {
+.carousel-track_right:hover,
+.carousel-track_left:hover {
   animation-play-state: paused;
 }
 
@@ -28,24 +29,12 @@
   100% {
     transform: translateX(-100%); /* Adjust to control scroll distance */
   }
-  100% {
-    transform: translateX(-100%); /* Adjust to control scroll distance */
-  }
-  0% {
-    transform: translateX(0);
-  }
 }
 @keyframes scroll_right {
   0% {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(100%); /* Adjust to control scroll distance */
-  }
-  0% {
     transform: translateX(0); /* Adjust to control scroll distance */
-  }
-  100% {
-    transform: translateX(100%); /* Adjust to control scroll distance */
   }
 }

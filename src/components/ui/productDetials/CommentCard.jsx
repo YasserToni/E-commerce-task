@@ -1,3 +1,5 @@
+import userImage from "../../../assets/user/user.jpeg";
+
 function CommentCard() {
   return (
     <div
@@ -7,7 +9,7 @@ function CommentCard() {
       <div className="flex gap-3 items-center">
         <img
           className="w-14 sm:w-9 h-14 sm:h-9 rounded-full "
-          src="https://s3-alpha-sig.figma.com/img/1440/549a/51d84e17229992b20b9e7fe636d5c60d?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KETNRjKt-asn1z-4~3XnCZH4RCZYV7cIiA2SzCumSXzLtfFlMIed7gUIyBzFmN9lFcFQCMgn1WLXKEasRKUYX82Sq6c7GKniMwQxxV-3kMTpbeCvxfdUNl5bw6o~AsfoUybA0u8YU1-HQuoLqt9c2WPxfphNhAwT4JvlMDFnfIN9Z1y-RH220D-yH8QbWsSrgU1k1tvjJ2tJkmtpp6ENN~Je4bUiHNPdptBoKLOchqNJXoV90BMlYzZspE-T3pIA-GR5KbN~y~j~IuAzsgFLeFka89HVU0wFGrm~kdVqhlO7tW0OKtEiWsacKZNd1NE6nR5G0V0FXSrHK2wSNj9ULA__"
+          src={userImage}
           alt="user image"
         />
         <div className="flex flex-col gap-1">
@@ -19,7 +21,7 @@ function CommentCard() {
           </span>
         </div>
       </div>
-      <p className="font-normal font-fr text-lg sm:text-sm text-[#262D35] pt-4 sm:pt-2 pl-36 sm:pl-10">
+      <p className="font-normal font-fr text-lg sm:text-sm text-[#262D35] pt-2 sm:pt-1 pl-36 sm:pl-10">
         “تجربه رائعه ومميزه. لقد أعجبني هذا المنتج حقًا، ويستحق التجربة. اذا كنت
         ترغب بشرائة لا تتردد انا انصح به وبشدة ”
       </p>

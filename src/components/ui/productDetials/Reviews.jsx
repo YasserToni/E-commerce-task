@@ -1,9 +1,3 @@
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-// } from "@/components/ui/carousel";
-// import CommentCard from "./CommentCard";
 import CommentCard from "./CommentCard";
 import "./review.css";
 
@@ -35,19 +29,6 @@ function Reviews({ carouselDirection }) {
           </div>
         </div>
       </div>
-      {/* <Carousel>
-        <CarouselContent>
-          <CarouselItem className="basis-1/3 sm:basis-1/1">
-            <CommentCard />
-          </CarouselItem>
-          <CarouselItem className="basis-1/3 sm:basis-1/1">
-            <CommentCard />
-          </CarouselItem>
-          <CarouselItem className="basis-1/3 sm:basis-1/1">
-            <CommentCard />
-          </CarouselItem>
-        </CarouselContent>
-      </Carousel> */}
     </div>
   );
 }

@@ -7,17 +7,13 @@ import SwiperCard from "../components/ui/swiperCard/SwiperCard";
 import RadioButton from "@/components/ui/productDetials/RadioButton";
 import DataHead from "@/components/ui/productDetials/DataHead";
 import BuyButton from "@/components/ui/productDetials/BuyButton";
-// import ProductDescription from "@/components/ui/productDetials/ProductDescription";
 import Colors from "@/components/ui/productDetials/Colors";
 import Spaces from "@/components/ui/productDetials/Spaces";
 import AddToCard from "@/components/ui/productDetials/AddToCard";
 import ProductDetials from "@/components/ui/productDetials/ProductDetials";
-import ProductRow from "@/components/ProductRow";
-// import Rates from "@/components/ui/productDetials/Rates";
 import Rate from "@/components/ui/productDetials/Rate";
 import WriteComment from "@/components/ui/productDetials/WriteComment";
 import Reviews from "@/components/ui/productDetials/Reviews";
-import ShoppingCard from "@/components/ui/productDetials/ShoppingCard";
 import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 
 function ProductPage() {

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 function BuyButton() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <div className="border-t border-[#E5E9F1] mb-7 w-[581px] sm:w-[305px]">
       <div className="py-5 flex items-center justify-between font-bold font-fb text-xl text-[#3A4353]">
@@ -9,7 +9,7 @@ function BuyButton() {
         <span>6500ج</span>
       </div>
       <button
-        onClick={() => navigate("success-order")}
+        // onClick={() => navigate("success-order")}
         className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound bottom-shadow"
       >
         اشتري الان - الدفع عند الاستلام

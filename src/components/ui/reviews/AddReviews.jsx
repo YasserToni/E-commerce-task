@@ -37,13 +37,13 @@ function AddReviews() {
             </div>
             <div
               dir="rtl"
-              className="flex flex-col sm:mt-2 sm:mr-2 justify-center items-center"
+              className="flex flex-col mt-4 sm:mt-2 sm:mr-2 justify-center items-center"
             >
-              <label className="font-medium font-fm text-lg sm:text-base text-[#333333] w-full">
+              <label className="font-medium font-fm text-base sm:text-sm text-[#333333] w-full">
                 الأسم الكامل
               </label>
               <input
-                className="p-[26px] w-full sm:p-4 rounded-lg sm:w-[296px] border border-[#DEDEDE] placeholder:text-sm placeholder:text-[#A8A8AA]"
+                className="h-[54px] sm:h-[43px] w-full sm:p-4 rounded-lg sm:w-[296px] border border-[#DEDEDE] placeholder:text-sm placeholder:text-[#A8A8AA]"
                 placeholder="ادخل اسمك بالكامل"
               />
             </div>
