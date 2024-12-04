@@ -11,6 +11,8 @@ import "./heroSwiper.css";
 import { Pagination } from "swiper/modules";
 import { useNavigate } from "react-router-dom";
 
+import productImage from "../../../assets/section-image/headphone-header.webp";
+
 function HerroSwiper() {
   const navigate = useNavigate();
   return (
@@ -44,7 +46,7 @@ function HerroSwiper() {
               </div>
               <div className="w-[50%]">
                 <img
-                  src="https://s3-alpha-sig.figma.com/img/3dbc/dd0d/cc6efa1a0067281fe9035fe59e195021?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o9egQXj38T~80NaRwV3mQZV2Q7~NCL3OVhkEM~4su75m5aHujwPgc5ZC82hFWwH-mcJEdLHzKfyLQuNLlWmDHQECusl6m4tvG6KuiHgkV1iLQwTDbs3TwM9gGzntBo1OIz9Y~EL0UFvG0A8ms8iPV1QiPHH74Zzm~T5mXufiHWZjHhMzpWNrnu35ueAqrM6Xn8O5YAPlq5Puy7iV8B7j92xIf4VVK4xCZcrt2qEb-PAjvh0C67NGNQR4YTlmiRhGc1FTJpPOyvVwP~n09Jz-fcPGOmxRVj5F2S0f90hYzyGaQiSsu96Wf20-EHp9rFmeBaYi1H5A8iaYD6PHJD13wQ__"
+                  src={productImage}
                   alt="Product Image"
                   className="max-w-full max-h-full sm:w-[168px] sm:h-[158px]"
                 />

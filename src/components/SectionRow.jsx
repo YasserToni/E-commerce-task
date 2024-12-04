@@ -1,27 +1,9 @@
-import { useRef } from "react";
-import { GoArrowLeft } from "react-icons/go";
-import { GoArrowRight } from "react-icons/go";
 import SectionCard from "./ui/sections/SectionCard";
-import { section_data } from "../dummey data/dummey-data.js";
+import sectionImage from "../assets/section-image/laptop.png";
 
 const SectionRow = ({ sectionName }) => {
-  const rowRef = useRef(null);
-
-  const scrollLeft = () => {
-    if (rowRef.current) {
-      rowRef.current.scrollBy({ left: -600, behavior: "smooth" });
-    }
-  };
-
-  const scrollRight = () => {
-    if (rowRef.current) {
-      rowRef.current.scrollBy({ left: 600, behavior: "smooth" });
-    }
-  };
-
   return (
     <div dir="rtl" className="relative w-full mb-14 sm:mb-7">
-      {/* Pagination Buttons */}
       <div className="flex justify-between my-6 sm:my-2">
         <div className="h-9 sm:h-6 flex items-center gap-2">
           <span className="w-2 sm:w-1 h-full bg-primary rounded-lg"></span>
@@ -31,14 +13,14 @@ const SectionRow = ({ sectionName }) => {
         </div>
       </div>
 
-      {/* Product Cards Row */}
-      <div ref={rowRef} className="flex gap-4 overflow-x-auto hide-scrollbar">
-        {section_data.map((item, index) => (
+      {/* Section Cards Row */}
+      <div className="flex gap-4 overflow-x-auto hide-scrollbar">
+        {Array.from({ length: 10 }).map((item, index) => (
           <SectionCard
             key={index + 1}
-            cardName={item.cardName}
-            imgSrc={item.imgSrc}
-            imgAlt={item.imgAlt}
+            cardName={"لابتوب"}
+            imgSrc={sectionImage}
+            imgAlt={"لابتوب"}
           />
         ))}
       </div>

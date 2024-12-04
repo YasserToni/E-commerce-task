@@ -7,7 +7,7 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
   return (
     <div dir="rtl" className="relative w-full mb-14 sm:mb-7">
       {/* Pagination Buttons */}
-      <div className="flex justify-between items-center my-6 sm:my-8">
+      <div className="flex justify-between items-center my-6 sm:my-3">
         <div className="h-9 flex items-center sm:flex-col gap-4 sm:gap-2">
           <div className="h-9 flex items-center gap-2">
             <span className="w-2 h-9 sm:h-6 sm:w-1 bg-primary rounded-lg"></span>
