@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="products" element={<ProductListPage />} />
           <Route path="product" element={<ProductPage />} />
-          <Route path="checkout/success-order" element={<SuccessPage />} />
+          <Route path="success-order" element={<SuccessPage />} />
           <Route path="failed-order" element={<FaildPayment />} />
           <Route path="checkout" element={<OrderPage />} />
         </Routes>

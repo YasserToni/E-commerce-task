@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BuyButton() {
   // const navigate = useNavigate();
@@ -8,12 +8,14 @@ function BuyButton() {
         <span>إجمالي المبلغ:</span>
         <span>6500ج</span>
       </div>
-      <button
-        // onClick={() => navigate("success-order")}
-        className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound bottom-shadow"
-      >
-        اشتري الان - الدفع عند الاستلام
-      </button>
+      <Link to="/success-order">
+        <button
+          // onClick={() => navigate("success-order")}
+          className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl sm:text-lg font-bold font-fb text-white linerBackgound bottom-shadow"
+        >
+          اشتري الان - الدفع عند الاستلام
+        </button>
+      </Link>
     </div>
   );
 }

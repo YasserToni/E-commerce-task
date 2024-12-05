@@ -1,4 +1,4 @@
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import BuyButton from "../productDetials/BuyButton";
 import Card from "./Card";
 import Coupon from "./Coupon";
@@ -21,12 +21,11 @@ function OrderSummery() {
           <span>إجمالي المبلغ:</span>
           <span>6500ج</span>
         </div>
-        <button
-          onClick={() => navigate("success-order")}
-          className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound bottom-shadow"
-        >
-          تأكيد الطلب
-        </button>
+        <Link to="/success-order">
+          <button className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl font-bold font-fb text-white linerBackgound bottom-shadow">
+            تأكيد الطلب
+          </button>
+        </Link>
       </div>
       <SummeryFeatures />
     </div>
