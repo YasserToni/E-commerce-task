@@ -28,13 +28,13 @@ function Header() {
         <ul
           className={`${
             toggleMenu ? "hidden" : "flex"
-          } absolute top-8 right-0 w-[330px] rounded-lg h-[200px] bg-[#eeeeee] z-20  flex-col justify-center gap-3 p-4 font-fm font-medium text-lg `}
+          } absolute top-8 right-0 w-[330px] rounded-lg h-[210px] bg-[#FFF] z-20  flex-col justify-center gap-3 p-4 font-fm font-medium text-base `}
         >
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            الصفحة الرئيسية
+            <NavLink to="/">الصفحة الرئيسية</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            منتجاتنا
+            <NavLink to="product">منتجاتنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             معلومات عنا
