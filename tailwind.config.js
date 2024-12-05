@@ -1,4 +1,5 @@
 import Swiper from "swiper";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -106,5 +107,5 @@ export default {
       "2xl": { max: "1535px" }, // For screens up to 1535px
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 };

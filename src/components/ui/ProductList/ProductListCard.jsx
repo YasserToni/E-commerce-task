@@ -13,7 +13,7 @@ function ProductListCard() {
         <img
           className="max-w-[260px] sm:max-w-[150px] max-h-[360px] sm:max-h-[144px]   mx-auto"
           src={productImage}
-          alt=""
+          alt="product image"
         />
       </Link>
 
