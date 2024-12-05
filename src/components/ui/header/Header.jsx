@@ -34,7 +34,7 @@ function Header() {
             <NavLink to="/">الصفحة الرئيسية</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            <NavLink to="product">منتجاتنا</NavLink>
+            <NavLink to="/product">منتجاتنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             معلومات عنا
