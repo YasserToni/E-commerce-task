@@ -1,7 +1,6 @@
 import CardsDiscount from "./ui/CardDiscount/CardsDiscount";
 import CountdownTimer from "./CountdownTimer";
 import { Link } from "react-router-dom";
-import arrowIcon from "../../src/assets/icons/Arrow 4.svg";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { useRef } from "react";
 
