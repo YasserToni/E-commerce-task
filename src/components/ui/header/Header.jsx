@@ -1,5 +1,5 @@
 import { RiMenu3Fill } from "react-icons/ri";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import {
   Sheet,
   SheetContent,
@@ -34,7 +34,7 @@ function Header() {
             <NavLink to="/">الصفحة الرئيسية</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            <NavLink to="/product">منتجاتنا</NavLink>
+            <NavLink to="/products">منتجاتنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
             معلومات عنا
@@ -137,7 +137,7 @@ function Header() {
                   </div>
                   <div className="flex gap-3">
                     <button className="w-[228px] sm:w-[159px] h-[48px] sm:h-[49px]  rounded-[61px] sm:rounded-[44px] bg-white text-primary text-xl sm:text-base font-bold font-fb border border-primary">
-                      متابعة التسوق
+                      <Link to="/products">متابعة التسوق</Link>
                     </button>
                     <button
                       onClick={() => navigate("/checkout")}

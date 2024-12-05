@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import image from "../../../assets/products_images/iphone.png";
 import { GoTrash } from "react-icons/go";
 import {
@@ -95,7 +95,7 @@ function AddToCard() {
                   </div>
                   <div className="flex gap-3">
                     <button className="w-[228px] sm:w-[159px] h-[48px] sm:h-[49px]  rounded-[61px] sm:rounded-[44px] bg-white text-primary text-xl sm:text-base font-bold font-fb border border-primary">
-                      متابعة التسوق
+                      <Link to="/products">متابعة التسوق</Link>
                     </button>
                     <button
                       onClick={() => navigate("/checkout")}
