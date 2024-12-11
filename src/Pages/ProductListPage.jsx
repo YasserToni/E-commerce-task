@@ -14,7 +14,7 @@ function ProductListPage() {
       <HeaderProductList />
       <main
         dir="rtl"
-        className="px-14 sm:px-4 flex gap-5 py-6 sm:py-2 bg-[#f5f5f5a3]"
+        className="px-14 sm:px-4 flex gap-5 py-6 sm:py-2 bg-[#fff]"
       >
         <SideBar />
         <div className="w-full ">

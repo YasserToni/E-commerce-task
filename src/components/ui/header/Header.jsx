@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       dir="rtl"
-      className="flex justify-between items-center border-b sm:border-y-0 py-2 px-14 sm:px-4 font-logo w-full h-[103px] sm:h-[50px]"
+      className="flex justify-between items-center border-b sm:border-y-0 py-2 px-14 sm:px-4 font-fm w-full h-[103px] sm:h-[50px]"
     >
       <nav className=" flex justify-between items-center gap-3 sm:gap-1 relative">
         <ul

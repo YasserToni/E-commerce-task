@@ -6,12 +6,12 @@ import RankFilter from "../filter/RankFilter";
 
 function Navbar() {
   return (
-    <div className="flex justify-between mb-4 sm:mb-0">
-      <div>
-        <span className="font-logo text-2xl sm:text-[20px] sm:leading-[30px] font-medium">
+    <div className="flex justify-between items-center mb-4 sm:mb-0">
+      <div className="flex gap-2 items-end">
+        <span className="font-fm text-2xl sm:text-[20px] text-[#212328] sm:leading-[30px] font-medium">
           قائمة المنتجات
         </span>
-        <span className="font-logo text-base sm:text-sm sm:leading-5 font-medium">
+        <span className="font-fm text-base sm:text-sm sm:leading-5 font-medium text-[#767676]">
           (230)
         </span>
       </div>

@@ -29,7 +29,7 @@ function AddToCard() {
   return (
     <div
       dir="rtl"
-      className="flex items-center gap-4 sm:gap-2 mb-7 w-[584px] sm:w-[305px]"
+      className="flex items-center gap-4 sm:gap-2 mt-8 mb-8 sm:mb-4 sm:mt-6 w-[584px] sm:w-[305px]"
     >
       {/* Add to Cart Button */}
       <button className="flex justify-center items-center gap-2 rounded-[61px] font-bold font-fb text-lg sm:text-base shrink-0 bg-black text-white h-[49px] sm:h-[32px] sm:w-[201px] w-[360px] ">

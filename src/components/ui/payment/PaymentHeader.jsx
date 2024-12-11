@@ -9,7 +9,7 @@ function PaymentHeader() {
   return (
     <header
       dir="rtl"
-      className="flex justify-between items-center border-b px-14 sm:px-4 py-3 font-logo w-full  h-[103px] sm:h-[50px]"
+      className="flex justify-between items-center border-b px-14 sm:px-4 py-3 font-fm w-full  h-[103px] sm:h-[50px]"
     >
       <div className="flex items-center sm:gap-2">
         <span className="w-6 sm:w-[18px]  h-6 sm:h-[18px] text-primary flex items-center">

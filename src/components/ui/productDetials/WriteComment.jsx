@@ -5,7 +5,7 @@ function WriteComment() {
     <div>
       <div className="h-9 sm:h-[29px] flex items-center gap-2">
         <span className="w-2 sm:w-1 h-full bg-primary rounded-lg"></span>
-        <span className="font-logo font-bold text-3xl sm:text-lg text-[##212328]">
+        <span className="font-fm font-bold text-3xl sm:text-lg text-[##212328]">
           تقييمات عملائنا
         </span>
       </div>

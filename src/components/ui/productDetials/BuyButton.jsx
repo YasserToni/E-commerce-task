@@ -8,7 +8,7 @@ function BuyButton() {
         <span>إجمالي المبلغ:</span>
         <span>6500ج</span>
       </div>
-      <Link to="/success-order">
+      <Link to="/checkout">
         <button
           // onClick={() => navigate("success-order")}
           className="w-full py-4 rounded-[61px] bg-[#3074F0] text-xl sm:text-lg font-bold font-fb text-white linerBackgound bottom-shadow"

@@ -15,6 +15,7 @@ import Rate from "@/components/ui/productDetials/Rate";
 import WriteComment from "@/components/ui/productDetials/WriteComment";
 import Reviews from "@/components/ui/productDetials/Reviews";
 import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
+import RadioChooser from "@/components/ui/productDetials/RadioChooser";
 
 function ProductPage() {
   return (
@@ -32,10 +33,16 @@ function ProductPage() {
           <Colors />
 
           <AddToCard />
+          <div className="relative w-full h-px bg-[#CACFE1]  mb-4  sm:my-6 ">
+            <span className="absolute w-[49px] h-[32px] bg-[#fff] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text[#6E768F] font-fr font-normal text-lg sm:text-sm leading-6 ">
+              او
+            </span>
+          </div>
           <DataHead title={"للطلب السريع يرجي إدخال البيانات المطلوبة:"} />
           <Input />
           <DataHead title={"عروض التوفير"} />
-          <RadioButton />
+          {/* <RadioButton /> */}
+          <RadioChooser />
           <BuyButton />
           {/* <ProductDescription /> */}
           <PolicyDetials />
@@ -56,7 +63,7 @@ function ProductPage() {
       </div>
       <Reviews carouselDirection="carousel-track_left" />
       <Reviews carouselDirection="carousel-track_right" />
-      <div className="px-14 sm:px-4">
+      <div className="px-14 mt-28 sm:mt-8 sm:px-4">
         <ProductRowWithCursoul sectionName={"منتجات مشابهه"} />
       </div>
       <Footer />

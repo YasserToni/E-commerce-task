@@ -14,7 +14,7 @@ function CardWithoustDiscount() {
           />
 
           <div>
-            <h3 className="font-normal text-lg font-logo text-[#454545]">
+            <h3 className="font-normal text-lg font-fm text-[#454545]">
               سامسونج الترا جالاكسي. شريحتان اتصال بلون بنفسجي.
             </h3>
             <div className="flex items-center justify-between">

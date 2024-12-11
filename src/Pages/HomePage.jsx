@@ -5,7 +5,6 @@ import HerroSwiper from "../components/ui/swiperCard/HerroSwiper";
 import Featers from "../components/ui/features/Featers";
 import SectionRow from "../components/SectionRow";
 import SpecialRow from "../components/SpecialRow";
-import SpecialCard from "../components/ui/special/SpecialCard";
 import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 
 function HomePage() {

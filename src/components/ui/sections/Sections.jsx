@@ -4,7 +4,7 @@ function Sections() {
   return (
     <>
       <div dir="rtl" className="mr-10">
-        <h1 className="font-bold text-[27px] leading-[40px] my-4 font-logo block">
+        <h1 className="font-bold text-[27px] leading-[40px] my-4 font-fm block">
           الاقسام
         </h1>
         <div className="flex gap-2 items-center overflow-auto scrollbar-hide">

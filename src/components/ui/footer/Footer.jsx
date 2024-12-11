@@ -24,7 +24,7 @@ function Footer() {
               تسوق
             </span>
           </div>
-          <p className="font-logo font-normal text-xl sm:text-base text-[#FFF] block my-8 sm:my-4">
+          <p className="font-fm font-normal text-xl sm:text-base text-[#FFF] block my-8 sm:my-4">
             منتجات إلكترونية أنيقة ذات جودة ممتازة تناسب كل فرد من أفراد الأسرة.
             وبأسعار جد معقولة
           </p>
@@ -36,11 +36,11 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col justify-between sm:gap-4">
-          <h1 className="font-logo font-medium text-2xl sm:text-lg text-[#fff]">
+          <h1 className="font-fm font-medium text-2xl sm:text-lg text-[#fff]">
             تواصلوا معنا
           </h1>
           <div>
-            <h5 className=" font-logo font-normal text-xl sm:text-base text-[#fff]">
+            <h5 className=" font-fm font-normal text-xl sm:text-base text-[#fff]">
               <IoMailOutline className="text-[#EEE] inline text-4xl pl-3" />
               البريد الإلكتروني
             </h5>
@@ -49,17 +49,17 @@ function Footer() {
             </h5>
           </div>
           <div>
-            <h5 className="font-logo font-normal text-xl sm:text-base text-[#fff]">
+            <h5 className="font-fm font-normal text-xl sm:text-base text-[#fff]">
               <FiPhoneCall className="text-[#EEE] inline text-4xl sm:text-3xl pl-3" />
               اتصل بنا
             </h5>
-            <h5 className="font-logo font-normal text-base text-[#fff]">
+            <h5 className="font-fm font-normal text-base text-[#fff]">
               + 966 5643 56688
             </h5>
           </div>
         </div>
         <div>
-          <h2 className="font-bold text-2xl sm:text-base font-logo text-[#FFFFFF] mb-4">
+          <h2 className="font-bold text-2xl sm:text-base font-fm text-[#FFFFFF] mb-4">
             اشترك معنا ليصلك اخر العروض والخصومات والحصول عليي خصم 15%
           </h2>
           <div className="flex gap-3 ">
@@ -68,13 +68,13 @@ function Footer() {
               type="text"
               placeholder="ادخل بريدك الالكتروني"
             />
-            <button className=" flex justify-center items-center bg-[#3074F0] text-[#FFF] font-logo font-bold text-base w-[114px] sm:w-[76px] h-[49px] sm:h-[33px]  rounded-3xl ">
+            <button className=" flex justify-center items-center bg-[#3074F0] text-[#FFF] font-fm font-bold text-base w-[114px] sm:w-[76px] h-[49px] sm:h-[33px]  rounded-3xl ">
               اشترك
             </button>
           </div>
         </div>
       </footer>
-      <div className="flex justify-center items-center font-logo font-normal text-base p-5 border-t border-[#3D3D3D]  text-[#ABABAB] bg-[#141D2E]">
+      <div className="flex justify-center items-center font-fm font-normal text-base p-5 border-t border-[#3D3D3D]  text-[#ABABAB] bg-[#141D2E]">
         © 2024 Tasawq. All rights reserved.
       </div>
     </>

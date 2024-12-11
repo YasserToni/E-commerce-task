@@ -11,7 +11,7 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
         <div className="h-9 flex items-center sm:flex-col gap-4 sm:gap-2">
           <div className="h-9 flex items-center gap-2">
             <span className="w-2 h-9 sm:h-6 sm:w-1 bg-primary rounded-lg"></span>
-            <span className="font-logo font-bold text-3xl sm:text-lg sm:leading-6 text-[##212328]">
+            <span className="font-fm font-bold text-3xl sm:text-lg sm:leading-6 text-[##212328]">
               {sectionName}
             </span>
           </div>
@@ -30,13 +30,12 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
       </div>
 
       {/* Product Cards Row */}
-      <div className="flex gap-4 sm:gap-2 overflow-x-auto hide-scrollbar">
-        {Array.from({ length: 20 }).map((_, index) => (
-          <CardsDiscount
-            discountPercentage={discountPercentage}
-            key={index + 1}
-          />
-        ))}
+      <div className="flex justify-between sm:gap-2 overflow-x-auto hide-scrollbar">
+        <CardsDiscount discountPercentage={discountPercentage} />
+        <CardsDiscount discountPercentage={discountPercentage} />
+        <CardsDiscount discountPercentage={discountPercentage} />
+        <CardsDiscount discountPercentage={discountPercentage} />
+        <CardsDiscount discountPercentage={discountPercentage} />
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ function SwiperCard() {
             "--swiper-pagination-color": "#fff",
           }}
           grabCursor={true}
-          pagination={true}
+          pagination={{ clickable: true }}
           loop={true}
           spaceBetween={10}
           navigation={true}
