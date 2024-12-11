@@ -20,7 +20,10 @@ function ProductPage() {
   return (
     <>
       <Header />
-      <HeaderProductList />
+      <HeaderProductList
+        about={"منتجاتنا"}
+        productName={" ايفون 15 برو ماكس"}
+      />
       <main
         dir="rtl"
         className="px-14 sm:px-4 flex sm:flex-col gap-5 sm:gap-2 py-6 sm:py-3"
