@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function RadioChooser() {
   const [selected, setSelected] = useState(null);
@@ -35,7 +35,7 @@ function RadioChooser() {
           onClick={() => setSelected(option.id)}
         >
           <div className="flex items-center gap-2">
-            <label className="flex items-center gap-4 cursor-pointer">
+            <label className="flex items-center gap-4 sm:gap-2 cursor-pointer">
               <input
                 type="radio"
                 name="selectable-product"

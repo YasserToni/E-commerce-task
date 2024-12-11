@@ -1,4 +1,3 @@
-import RadioButton from "../productDetials/RadioButton";
 import PaymentOptions from "./PaymentOptions";
 
 function PaymentChooser() {

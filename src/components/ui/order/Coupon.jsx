@@ -2,7 +2,7 @@ import { RiCoupon3Line } from "react-icons/ri";
 import BadCoupon from "./BadCoupon";
 function Coupon() {
   return (
-    <div className="flex gap-5 pt-7 border-t border-[#E5E9F1] flex-col mb-7">
+    <div className="flex gap-5  border-t border-[#E5E9F1] flex-col my-7 sm:my-3">
       <BadCoupon />
       <div className="flex gap-9 sm:gap-4 ">
         {/* Input Container */}
@@ -16,7 +16,7 @@ function Coupon() {
           />
 
           {/* Icon */}
-          <span className="absolute inset-y-0 sm:top-2 right-0 flex items-center pr-3 pb-2">
+          <span className="absolute top-[1.25rem]  sm:top-[.75rem] right-0 flex items-center pr-3 pb-2">
             <RiCoupon3Line className="w-5 h-5 text-[#A1A2A5] " />
           </span>
         </div>

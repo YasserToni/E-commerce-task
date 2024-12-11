@@ -40,7 +40,7 @@ function Header() {
             <NavLink to="/aboutus">معلومات عنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            <NavLink to="/contactuc">تواصل معنا</NavLink>
+            <NavLink to="/contactus">تواصل معنا</NavLink>
           </li>
         </ul>
         <span

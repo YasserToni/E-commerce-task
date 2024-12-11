@@ -1,7 +1,10 @@
 import { MdOutlineReportGmailerrorred } from "react-icons/md";
 function BadCoupon() {
   return (
-    <div dir="rtl" className="flex justify-between bg-[#FFF0F0] py-4 px-3">
+    <div
+      dir="rtl"
+      className="flex justify-between bg-[#FFF0F0] py-4 sm:py-2 px-3"
+    >
       <div className="flex gap-2 ">
         <MdOutlineReportGmailerrorred size={30} className="text-[#E10000]" />
         <span className="font-semibold font-fm text-lg text-[#252534]">

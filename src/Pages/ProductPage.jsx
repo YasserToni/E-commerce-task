@@ -4,7 +4,6 @@ import Header from "../components/ui/header/Header";
 import PolicyDetials from "../components/ui/productDetials/PolicyDetials";
 import HeaderProductList from "../components/ui/ProductList/HeaderProductList";
 import SwiperCard from "../components/ui/swiperCard/SwiperCard";
-import RadioButton from "@/components/ui/productDetials/RadioButton";
 import DataHead from "@/components/ui/productDetials/DataHead";
 import BuyButton from "@/components/ui/productDetials/BuyButton";
 import Colors from "@/components/ui/productDetials/Colors";
@@ -41,7 +40,6 @@ function ProductPage() {
           <DataHead title={"للطلب السريع يرجي إدخال البيانات المطلوبة:"} />
           <Input />
           <DataHead title={"عروض التوفير"} />
-          {/* <RadioButton /> */}
           <RadioChooser />
           <BuyButton />
           {/* <ProductDescription /> */}
