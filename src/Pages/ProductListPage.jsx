@@ -11,7 +11,7 @@ function ProductListPage() {
   return (
     <>
       <Header />
-      <HeaderProductList />
+      <HeaderProductList about={"منتجاتنا"} />
       <main
         dir="rtl"
         className="px-14 sm:px-4 flex gap-5 py-6 sm:py-2 bg-[#fff]"

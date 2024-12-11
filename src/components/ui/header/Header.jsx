@@ -37,10 +37,10 @@ function Header() {
             <NavLink to="/products">منتجاتنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            معلومات عنا
+            <NavLink to="/aboutus">معلومات عنا</NavLink>
           </li>
           <li className="hover:border-b border-[#2a2a3063] hover:text-primary hover:font-semibold">
-            تواصل معنا
+            <NavLink to="/contactuc">تواصل معنا</NavLink>
           </li>
         </ul>
         <span
@@ -64,10 +64,10 @@ function Header() {
           <NavLink to="/products">منتجاتنا</NavLink>
         </li>
         <li>
-          <a href="#">معلومات عنا</a>
+          <NavLink to="/aboutus">معلومات عنا</NavLink>
         </li>
         <li>
-          <a href="#">تواصل معنا</a>
+          <NavLink to="/contactus">تواصل معنا</NavLink>
         </li>
       </ul>
       <div className="flex justify-between gap-8 sm:gap-4">
