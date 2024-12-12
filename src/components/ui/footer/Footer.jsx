@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { FiPhoneCall } from "react-icons/fi";
-import logo from "../../../../public/logg.jpg";
+import logo from "../../../assets/icons/yelp 1.png";
 
 function Footer() {
   return (
@@ -16,9 +16,9 @@ function Footer() {
         <div>
           <div className="flex items-center gap-3 sm:gap-1">
             <img
-              src="https://s3-alpha-sig.figma.com/img/a6d7/8a8f/2501911f1f8921cbd38b239a5a0795b5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iNkGEnT3wQA8kCaQ9YdqKEkX~SxFaAHXOZRMAQ1Zlau0ZNNENIpOEXiPHMieo9wwojnea5tCmjUr6PsBlMuYodNubjFIUrF6EG8i1N5319LL2G5eO-Id91DKu2vyXHQWCvYkIlYdJAvMHfeU~OLGiaGSrmv9b-Z70kX-Ah0XlbJgUyW4ij7sVkqJ0p4eU6NO80V5OGk3iJy7~Tl5-vl98VBY4vB2c-Uz4OWpZu1g5ydTf1kUHyZPYLKcWmEQ92X~Nsc0xvXRQRn1iXuqFQYzdZQcxeA0UtB~BOL1GI4FfoUlk5REWv4ZSFmNW1ghAr-RVhq~5VRd4R1aC7vcdZ50nQ__"
+              src={logo}
               alt="Logo"
-              className="w-10 h-10 sm:w-[30px] sm:h-[30px] rotate-[240deg]"
+              className="w-10 h-10 sm:w-[30px] sm:h-[30px]"
             />
             <span className="leading-10 ont-logo font-bold text-3xl sm:text-[21px] sm:leading-[31px] text-[#FFF]">
               تسوق

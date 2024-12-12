@@ -107,13 +107,6 @@ function CardsDiscount({ discountPercentage }) {
           </SheetHeader>
         </SheetContent>
       </Sheet>
-      {/* <div className="text-[#FFFFFF] sm:w-6 sm:h-6 w-[36px] h-[34px]">
-        <img
-          src={shoppingCardIcon}
-          alt="shopping cart icon"
-          className="absolute left-3 sm:left-5  bottom-28 sm:bottom-14 hover:cursor-pointer py-1 px-1.5 bg-[#3074F0] rounded-md sm:w-6 sm:h-6 w-[36px] h-[34px]"
-        />
-      </div> */}
       <Link to="/product">
         <img
           className="max-w-60 sm:max-w-[108px] max-h-64 sm:max-h-[144px] pb-1  mx-auto cursor-pointer"
@@ -130,7 +123,7 @@ function CardsDiscount({ discountPercentage }) {
         </Link>
         <div className="flex items-center justify-between">
           <div>
-            <span className="font-bold text-xl sm:text-sm sm:leading-5 text-[#E02954]">
+            <span className="font-bold text-xl sm:text-xs sm:leading-5 sm:text-[#454545] text-[#E02954]">
               6500ج
             </span>
             <span className="font-normal text-base sm:text-xs sm:leading-4 text-[#808080] line-through">

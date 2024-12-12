@@ -1,7 +1,7 @@
 import { RiShieldCheckLine } from "react-icons/ri";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { FiPhoneCall } from "react-icons/fi";
-import logo from "../../../../public/logg.jpg";
+import logo from "../../../assets/icons/yelp 1.png";
 import { useNavigate } from "react-router-dom";
 
 function PaymentHeader() {
