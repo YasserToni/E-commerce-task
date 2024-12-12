@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import image from "../../../assets/products_images/iphone.png";
-import logo from "../../../../public/logg.jpg";
+import logo from "../../../assets/icons/yelp 1.png";
 import { GoTrash } from "react-icons/go";
 import { useState } from "react";
 import cardIcon from "../../../assets/icons/shopping-cart.svg";
