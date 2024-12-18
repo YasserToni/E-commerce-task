@@ -3,8 +3,12 @@ import OrderSummery from "@/components/ui/order/OrderSummery";
 import PaymentChooser from "@/components/ui/order/PaymentChooser";
 import PersonalDAta from "@/components/ui/order/PersonalData";
 import PaymentHeader from "@/components/ui/payment/PaymentHeader";
+import { useEffect } from "react";
 
 function OrderPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <PaymentHeader />
