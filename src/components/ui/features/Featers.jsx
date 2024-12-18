@@ -7,9 +7,9 @@ function Featers() {
   return (
     <div
       dir="rtl"
-      className="flex justify-between items-center  py-6 sm:py-3 px-16 sm:px-2 mx-20 sm:mx-0  my-14 sm:my-8 shadow-[0px_4px_29px_0px_#2123280F]"
+      className="flex justify-between items-center  py-6 sm:py-3 px-16  sm:px-2 mx-20 sm:mx-0  my-14 sm:my-8 shadow-[0px_4px_29px_0px_#2123280F]"
     >
-      <div className="flex justify-between sm:flex-col shrink-0 sm:px-1  items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
+      <div className="flex justify-between  sm:flex-col shrink-0 sm:px-1   items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
         <div>
           <img
             className="w-10 sm:w-6 h-10 sm:h-6"
@@ -26,7 +26,7 @@ function Featers() {
           </span>
         </div>
       </div>
-      <div className="flex justify-between sm:flex-col shrink-0  sm:px-1 items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
+      <div className="flex justify-between sm:flex-col shrink-0  sm:px-1  items-center gap-4 sm:gap-1 pl-20 sm:pl-2  border-l border-solid border-[#ECECEC]">
         <img
           className="w-10 sm:w-6 h-10 sm:h-6"
           src={moneyIcon}
@@ -56,7 +56,7 @@ function Featers() {
           </span>
         </div>
       </div>
-      <div className="flex justify-between sm:flex-col shrink-0  sm:px-1  items-center gap-4 sm:gap-1 pl-20 sm:pl-2 ">
+      <div className="flex justify-between sm:flex-col shrink-0  sm:px-1   items-center gap-4 sm:gap-1 pl-20 sm:pl-2 ">
         <img
           className="w-10 sm:w-6 h-10 sm:h-6"
           src={headPhone}

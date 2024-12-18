@@ -30,7 +30,7 @@ const ProductRow = ({ sectionName, discountPeriod, discountPercentage }) => {
       </div>
 
       {/* Product Cards Row */}
-      <div className="flex justify-between sm:gap-2 overflow-x-auto hide-scrollbar">
+      <div className="flex justify-between gap-4 overflow-x-auto hide-scrollbar">
         <CardsDiscount discountPercentage={discountPercentage} />
         <CardsDiscount discountPercentage={discountPercentage} />
         <CardsDiscount discountPercentage={discountPercentage} />

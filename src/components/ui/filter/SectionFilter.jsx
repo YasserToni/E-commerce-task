@@ -43,7 +43,7 @@ function SectionFilter() {
           <SheetTrigger>
             <CiFilter />
           </SheetTrigger>
-          <SheetContent className="w-[360px] h-[fit] rounded-t-[40px] px-10">
+          <SheetContent className=" w-full h-[fit] rounded-t-[40px] px-10">
             <SheetHeader>
               <SheetTitle>
                 <div className="flex flex-col gap-4 justify-center items-center">
@@ -56,7 +56,7 @@ function SectionFilter() {
               <SheetDescription>
                 <div
                   dir="rtl"
-                  className=" shadow-card  pt-4 pb-8 h-fit w-[292px] bg-white sidebar-shadow rounded-[16px]"
+                  className=" shadow-card  pt-4 pb-8 h-fit w-[292px] bg-white  rounded-[16px]"
                 >
                   <span className="block font-bold text-xl text-[#212328] px-4 py-2">
                     الاقسام
@@ -74,7 +74,7 @@ function SectionFilter() {
                           type="checkbox"
                           checked={checkedItems[item.id] || false}
                           onChange={() => handleCheckboxChange(item.id)}
-                          className="h-4 w-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500"
+                          className="h-4 w-4  text-blue-600 border-gray-300 focus:ring-blue-500"
                         />
                         <span
                           className={

@@ -37,7 +37,7 @@ function RankFilter() {
           <SheetTrigger>
             <BsArrowDownUp />
           </SheetTrigger>
-          <SheetContent className="w-[360px] h-[fit] rounded-t-[40px] px-10">
+          <SheetContent className="w-full h-[fit] rounded-t-[40px] px-10">
             <SheetHeader>
               <SheetTitle>
                 <div className="flex flex-col gap-4 justify-center items-center">
@@ -50,7 +50,7 @@ function RankFilter() {
               <SheetDescription>
                 <div
                   dir="rtl"
-                  className="shadow-card pt-4 pb-8 h-fit w-[292px] bg-white sidebar-shadow rounded-[16px]"
+                  className=" pt-4 pb-8 h-fit w-[292px] bg-white rounded-[16px]"
                 >
                   <div className="space-y-2 px-4 text-[#5C5C5C] text-base">
                     {items.map((item) => (

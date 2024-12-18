@@ -9,7 +9,7 @@ function ContactusPage() {
       <HeaderProductList about={"تواصل معنا"} />
       <div dir="rtl" className="max-w-4xl mx-auto mt-4 py-10 px-4 sm:px-8">
         <section className="text-right">
-          <h2 className="text-2xl sm:text-xl font-bold text-gray-800 mb-6  ">
+          <h2 className="text-2xl sm:text-xl font-bold font-fb text-gray-800 mb-6  ">
             تواصل معنا
           </h2>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 font-fm">

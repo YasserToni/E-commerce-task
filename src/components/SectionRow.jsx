@@ -35,7 +35,7 @@ const SectionRow = ({ sectionName }) => {
       <div className="flex justify-between my-6 sm:my-2">
         <div className="h-9 sm:h-6 flex items-center gap-2">
           <span className="w-2 sm:w-1 h-full bg-primary rounded-lg"></span>
-          <span className="font-fm font-bold text-3xl sm:text-base sm:leading-6 text-[##212328]">
+          <span className="font-fb font-bold text-3xl sm:text-base sm:leading-6 text-[##212328]">
             {sectionName}
           </span>
         </div>
@@ -43,7 +43,7 @@ const SectionRow = ({ sectionName }) => {
 
       {/* Section Cards Row */}
       <div
-        className="flex gap-4 overflow-x-auto hide-scrollbar cursor-grab active:cursor-grabbing select-none"
+        className="flex gap-4 sm:gap-3 overflow-x-auto hide-scrollbar cursor-grab active:cursor-grabbing select-none"
         ref={carouselRef}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}

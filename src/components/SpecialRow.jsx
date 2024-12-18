@@ -11,14 +11,14 @@ const SpecialRow = ({ sectionName }) => {
       <div className="flex justify-between my-6">
         <div className="h-9 sm:h-6 flex items-center gap-2">
           <span className="w-2 sm:w-1 h-full bg-primary rounded-lg"></span>
-          <span className="font-fm font-bold text-3xl sm:text-base sm:leading-5 text-[##212328]">
+          <span className="font-fb font-bold text-3xl sm:text-base sm:leading-5 text-[#212328]">
             {sectionName}
           </span>
         </div>
       </div>
 
       {/* Special Cards Row */}
-      <div className="flex justify-between sm:gap-4 overflow-x-auto hide-scrollbar shrink-0">
+      <div className="flex justify-between lg:gap-4 overflow-x-auto hide-scrollbar ">
         <SpecialCard specialCardImage={specialCardHeadphone} />
         <SpecialCard specialCardImage={specialCardTab} />
         <SpecialCard specialCardImage={specialCardScreen} />

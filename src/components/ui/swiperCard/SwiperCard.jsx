@@ -34,19 +34,39 @@ function SwiperCard() {
           className="mySwiper2"
         >
           <SwiperSlide>
-            <img className="sm:max-w-[187px] sm:max-h-[264px]" src={image} />
+            <img
+              className="sm:max-w-[187px] sm:max-h-[264px]"
+              src={image}
+              draggable="false"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="sm:max-w-[187px] sm:max-h-[264px]" src={image} />
+            <img
+              className="sm:max-w-[187px] sm:max-h-[264px]"
+              src={image}
+              draggable="false"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="sm:max-w-[187px] sm:max-h-[264px]" src={image} />
+            <img
+              className="sm:max-w-[187px] sm:max-h-[264px]"
+              src={image}
+              draggable="false"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="sm:max-w-[187px] sm:max-h-[264px]" src={image} />
+            <img
+              className="sm:max-w-[187px] sm:max-h-[264px]"
+              src={image}
+              draggable="false"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="sm:max-w-[187px] sm:max-h-[264px]" src={image} />
+            <img
+              className="sm:max-w-[187px] sm:max-h-[264px]"
+              src={image}
+              draggable="false"
+            />
           </SwiperSlide>
         </Swiper>
         <Swiper
@@ -60,19 +80,19 @@ function SwiperCard() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className="p-2" src={image} />
+            <img className="p-2" src={image} draggable="false" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="p-2" src={image} />
+            <img className="p-2" src={image} draggable="false" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="p-2" src={image} />
+            <img className="p-2" src={image} draggable="false" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="p-2" src={image} />
+            <img className="p-2" src={image} draggable="false" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="p-2" src={image} />
+            <img className="p-2" src={image} draggable="false" />
           </SwiperSlide>
         </Swiper>
       </div>

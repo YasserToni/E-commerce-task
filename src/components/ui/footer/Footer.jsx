@@ -11,7 +11,7 @@ function Footer() {
     <>
       <footer
         dir="rtl"
-        className="flex justify-between sm:flex-wrap gap-48 sm:gap-8 bg-[#141D2E] pt-10 pb-40 sm:pb-25 px-14 sm:px-4"
+        className="flex justify-between sm:flex-wrap md:flex-wrap gap-48 sm:gap-8 md:gap-10 bg-[#141D2E] pt-10 pb-40 sm:pb-25 px-14 sm:px-4"
       >
         <div>
           <div className="flex items-center gap-3 sm:gap-1">

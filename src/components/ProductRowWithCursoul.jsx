@@ -59,10 +59,7 @@ const ProductRowWithCursoul = ({
       </div>
 
       {/* Product Cards Row */}
-      <div
-        ref={rowRef}
-        className="flex gap-4 sm:gap-2 overflow-x-auto hide-scrollbar"
-      >
+      <div ref={rowRef} className="flex gap-4 overflow-x-auto hide-scrollbar">
         {Array.from({ length: 20 }).map((_, index) => (
           <CardsDiscount
             discountPercentage={discountPercentage}

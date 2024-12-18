@@ -24,8 +24,22 @@ function HerroSwiper() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="w-[1400px] sm:w-[328px] sm:h-[177px]  h-[700px]  flex gap-2  sm:justify-between  bg-[#F8F9FF] rounded-2xl px-8 sm:px-3">
-              <div className="flex flex-col items-start justify-center ">
+            <div className="w-[1400px] sm:w-[328px] sm:h-[177px]  h-[700px]  flex gap-2  sm:justify-between  bg-[#F8F9FF] rounded-2xl px-8 sm:px-0">
+              <div>
+                <img
+                  className="absolute -top-28 sm:-top-12 left-0 sm:w-[134px] sm:h-[144px] "
+                  src="./Ellipse 13.svg"
+                  alt="Ellipse 13.svg"
+                />
+              </div>
+              <div>
+                <img
+                  className="absolute -bottom-8 sm:-bottom-12 right-0 sm:w-[134px] sm:h-[144px] "
+                  src="./Ellipse 14.svg"
+                  alt="Ellipse 14.svg"
+                />
+              </div>
+              <div className="flex flex-col items-start justify-center z-10">
                 <div className=" flex gap-[5px] items-center">
                   <div className="w-5 sm:w-3 h-5 sm:h-3 rounded-full bg-primary text-white flex justify-center items-center">
                     <FaStar />
@@ -48,11 +62,11 @@ function HerroSwiper() {
                   أطلب الان
                 </button>
               </div>
-              <div className="w-[50%]">
+              <div className="w-[50%] z-10">
                 <img
                   src={productImage}
                   alt="Product Image"
-                  className="max-w-full max-h-full sm:w-[168px] sm:h-[158px]"
+                  className="max-w-full max-h-full sm:w-[168px] sm:h-[158px] z-10"
                 />
               </div>
             </div>

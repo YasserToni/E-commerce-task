@@ -15,8 +15,12 @@ import WriteComment from "@/components/ui/productDetials/WriteComment";
 import Reviews from "@/components/ui/productDetials/Reviews";
 import ProductRowWithCursoul from "@/components/ProductRowWithCursoul";
 import RadioChooser from "@/components/ui/productDetials/RadioChooser";
+import { useEffect } from "react";
 
 function ProductPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />
